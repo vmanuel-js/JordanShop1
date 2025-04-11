@@ -7,7 +7,7 @@
 :root {
   --white-smoke: #f5f5f5;
   --black: #121212;
-  --dark-green: #283618;
+  --dark-green: #0e1407;
   --green: #606c38;
   --cream: #fefae0;
   --light-brown: #dda15e;
@@ -57,11 +57,15 @@ body {
   border-radius: 12px;
 }
 
+.buttonReserva:hover {
+  background-color: var(--dark-brown);
+}
+
 .navbar-toggler {
   background-color: var(--light-brown);
 }
 
-/* index.html */
+/* Hero */
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../imgs/barberShop.jpeg");
@@ -109,6 +113,109 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+/* Testimonios */
+
+#testimoniales {
+  background-color: var(--dark-light-yellow);
+  height: 100vh;
+  padding: 80px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.subtitulosImportantes {
+  font-size: 36px;
+  text-align: center;
+  color: var(--white);
+}
+
+.testimonioContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.testimonio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: var(--dark-yellow);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--white);
+}
+
+.testimonio:hover {
+  background-color: var(--dark-green);
+}
+
+.testimonio img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+/* Nuestras Herramientas de trabajo */
+
+#herramientasDeTrabajo {
+  background-color: var(--dark-light-yellow);
+  height: auto;
+  padding: 0px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+#herramientasDeTrabajo p {
+  font-size: 18px;
+  color: var(--white);
+  text-align: center;
+}
+
+.herramientasDeConfianza {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.herramientas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  gap: 20px;
+  background-color: var(--dark-yellow);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--white-smoke);
+}
+
+.herramientas:hover {
+  background-color: var(--dark-green);
+}
+
+.herramientasDeConfianza img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
 /* Footer */
@@ -187,11 +294,6 @@ body {
   justify-content: space-between;
   gap: 10px;
   color: var(--light-brown);
-}
-
-.infoList ion-icon {
-  width: 20px;
-  height: 20px;
 }
 
 .infoList a {
