@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Link A Bootstrap CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
@@ -15,6 +22,184 @@
     <title>JordanShop</title>
   </head>
   <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JordanShop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/sobreNosotros.html"
+                >Sobre Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/locales.html">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <section id="hero">
+        <div class="heroTitulos">
+          <h1>Renueva tu <span>estilo</span> con <span>nosotros</span></h1>
+          <p>
+            En JordanBarber te ayudamos a definir tu estilo con cortes modernos,
+            afeitados precisos y un servicio de primera. Déjate atender por
+            nuestros expertos y disfruta de una experiencia única que te hará
+            lucir y sentirte increíble.
+          </p>
+          <hr />
+          <ul>
+            <li><a class="buttonReserva" href="#">Reserva tu cita</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="testimoniales">
+        <h2 class="subtitulosImportantes">
+          Clientes que confiaron en <b>Nosotros</b>
+        </h2>
+        <div class="testimonioContainer">
+          <article>
+            <h3></h3>
+            <p></p>
+            <img src="" alt="" />
+          </article>
+          <article>
+            <h3></h3>
+            <p></p>
+            <img src="" alt="" />
+          </article>
+          <article>
+            <h3></h3>
+            <p></p>
+            <img src="" alt="" />
+          </article>
+          <article>
+            <h3></h3>
+            <p></p>
+            <img src="" alt="" />
+          </article>
+        </div>
+      </section>
+
+      <section id="herramientasDeTrabajo">
+        <h2 class="subtitulosImportantes">Nuestras herramientas de trabajo</h2>
+        <p>Lo mejor para darte el mejor corte</p>
+        <div class="herramientasDeConfianza">
+          <article>
+            <img src="" alt="" />
+            <h3></h3>
+            <p></p>
+          </article>
+          <article>
+            <img src="" alt="" />
+            <h3></h3>
+            <p></p>
+          </article>
+          <article>
+            <img src="" alt="" />
+            <h3></h3>
+            <p></p>
+          </article>
+          <article>
+            <img src="" alt="" />
+            <h3></h3>
+            <p></p>
+          </article>
+          <article>
+            <img src="" alt="" />
+            <h3></h3>
+            <p></p>
+          </article>
+          <article>
+            <img src="" alt="" />
+            <h3></h3>
+            <p></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footerBox">
+        <div class="footerBoxItem1">
+          <h2>JORDANSHOP</h2>
+          <a href="#">Reserva una cita</a>
+        </div>
+        <div class="footerBoxItem2">
+          <div class="itemBoxInfo">
+            <h3>Sobre Nosotros</h3>
+            <p>
+              En <b>JordanShop</b>, combinamos tradición y estilo para ofrecer
+              cortes de cabello, afeitados y cuidado de barba con la máxima
+              precisión. Visítanos y renueva tu look con los mejores barberos.
+            </p>
+          </div>
+          <div class="itemBoxInfo">
+            <h3>Servicios</h3>
+            <ul class="infoList">
+              <li><a href="./pages/servicios.html">Corte de Cabello</a></li>
+              <li><a href="./pages/servicios.html">Barba</a></li>
+              <li><a href="./pages/servicios.html">Afeitado</a></li>
+              <li><a href="./pages/servicios.html">Facial</a></li>
+            </ul>
+          </div>
+          <div class="itemBoxInfo">
+            <h3>Información</h3>
+            <p>vmjordansolis@gmail.com</p>
+            <p>+51 999 888 777</p>
+          </div>
+          <div class="itemBoxInfo">
+            <h3>Síguenos</h3>
+            <ul class="infoList">
+              <li>
+                <a href="https://www.instagram.com/" target="_blank"
+                  >Instagram</a
+                ><ion-icon name="logoInstagram"></ion-icon>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a
+                ><ion-icon name="logoFacebook"></ion-icon>
+              </li>
+              <li>
+                <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a
+                ><ion-icon name="logoWhatsapp"></ion-icon>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerBoxItem3">
+          <p>© 2025, JordanShop, All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
     <!-- Script de Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
