@@ -57,6 +57,10 @@ body {
   border-radius: 12px;
 }
 
+.navbar-toggler {
+  background-color: var(--light-brown);
+}
+
 /* index.html */
 #hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -105,4 +109,99 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-yellow);
+  color: var(--white-smoke);
+}
+
+.footerBox {
+  display: flex;
+  padding: 90px 64px;
+  gap: 40px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.footerBoxItem1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerBoxItem1 h2 {
+  font-size: 40px;
+}
+
+.footerBoxItem1 a {
+  padding: 16px 32px;
+  height: 56px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-brown);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--dark-yellow);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footerBoxItem2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 20px 10px;
+}
+
+.itemBoxInfo {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerBoxItem3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.infoList li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--light-brown);
+}
+
+.infoList ion-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.infoList a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--white-smoke);
+}
+
+.footerBoxItem1 h2,
+.itemBoxInfo h3,
+.footerBoxItem3 p {
+  color: var(--light-brown);
 }
