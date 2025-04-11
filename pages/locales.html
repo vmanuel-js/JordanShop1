@@ -18,6 +18,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
     <link rel="stylesheet" href="../style/styles.css" />
     <title>JordanShop</title>
   </head>
@@ -60,12 +65,53 @@
       </div>
     </nav>
 
+    <!-- Main -->
+    <main>
+      <section id="section-locales">
+        <div class="locales">
+          <h2>Nuestro Locales</h2>
+          <hr />
+          <p>Encuentra nuestra barbería más cercana a tu zona y visítanos.</p>
+        </div>
+        <div class="locales-info">
+          <article class="locales-distritos">
+            <img src="../imgs/barb1.jpg" alt="Barbería Miraflores" />
+            <h3>Barbería Miraflores</h3>
+            <p>Av. República de Panamá 5719, Miraflores 15047</p>
+            <p>Lunes a Sábado | 10am - 9pm</p>
+            <a href="https://maps.app.goo.gl/Kq67jURwQ3VZUtPCA">Ver Más</a>
+          </article>
+          <article class="locales-distritos">
+            <img src="../imgs/barb2.jpg" alt="Barbería San Isidro" />
+            <h3>Barbería San Isidro</h3>
+            <p>Ca. Alfz. Mariano Santos Mateos 124, San Isidro 15047</p>
+            <p>Lunes a Domingo | 9am - 8pm</p>
+            <a href="https://maps.app.goo.gl/wTgTa7yM8hwrjpNV8">Ver Más</a>
+          </article>
+          <article class="locales-distritos">
+            <img src="../imgs/barb3.jpg" alt="Barbería San Miguel" />
+            <h3>Barbería San Miguel</h3>
+            <p>Av. Rafael Escardó 723, San Miguel 15088</p>
+            <p>Lunes a Sábado | 10am - 9pm</p>
+            <a href="https://maps.app.goo.gl/i11BVn7AJW5EQCFVA">Ver Más</a>
+          </article>
+          <article class="locales-distritos">
+            <img src="../imgs/barb4.jpg" alt="Barbería Surco" />
+            <h3>Barbería Surco</h3>
+            <p>Av. Alejandro Velasco Astete, Santiago de Surco 15039</p>
+            <p>Lunes a Sábado | 9:30am - 8:30pm</p>
+            <a href="https://maps.app.goo.gl/vRKNmDJsGfhwhbo77">Ver Más</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
     <!-- Footer -->
     <footer class="footer">
       <div class="footerBox">
         <div class="footerBoxItem1">
           <h2>JORDANSHOP</h2>
-          <a href="#">Reserva una cita</a>
+          <a class="buttonReserva" href="#">Reserva una cita</a>
         </div>
         <div class="footerBoxItem2">
           <div class="itemBoxInfo">
@@ -79,10 +125,10 @@
           <div class="itemBoxInfo">
             <h3>Servicios</h3>
             <ul class="infoList">
-              <li><a href="../pages/servicios.html">Corte de Cabello</a></li>
-              <li><a href="../pages/servicios.html">Barba</a></li>
-              <li><a href="../pages/servicios.html">Afeitado</a></li>
-              <li><a href="../pages/servicios.html">Facial</a></li>
+              <li><a href="./servicios.html">Corte de Cabello</a></li>
+              <li><a href="./servicios.html">Barba</a></li>
+              <li><a href="./servicios.html">Afeitado</a></li>
+              <li><a href="./servicios.html">Facial</a></li>
             </ul>
           </div>
           <div class="itemBoxInfo">
@@ -96,15 +142,15 @@
               <li>
                 <a href="https://www.instagram.com/" target="_blank"
                   >Instagram</a
-                ><ion-icon name="logoInstagram"></ion-icon>
+                ><i class="bi bi-instagram"></i>
               </li>
               <li>
                 <a href="https://www.facebook.com/" target="_blank">Facebook</a
-                ><ion-icon name="logoFacebook"></ion-icon>
+                ><i class="bi bi-facebook"></i>
               </li>
               <li>
                 <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a
-                ><ion-icon name="logoWhatsapp"></ion-icon>
+                ><i class="bi bi-whatsapp"></i>
               </li>
             </ul>
           </div>

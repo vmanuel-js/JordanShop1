@@ -18,6 +18,11 @@
       crossorigin="anonymous"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
     <link rel="stylesheet" href="../style/styles.css" />
     <title>JordanShop</title>
   </head>
@@ -60,12 +65,76 @@
       </div>
     </nav>
 
+    <!-- Main -->
+    <main>
+      <section id="servicios">
+        <div class="titulo-servicios">
+          <h2>Nuestros Servicios</h2>
+          <hr />
+          <p>
+            En nuestra barbería, te ofrecemos una experiencia de cuidado y
+            estilo con servicios de alta calidad:
+          </p>
+        </div>
+      </section>
+      <section class="box-servicios">
+        <article class="servicio-user">
+          <img
+            class="img-box-servicio"
+            src="../imgs/corte-de-cabello.jpg"
+            alt="Corte de Cabello"
+          />
+          <h2>Cortes de cabello</h2>
+          <p>
+            Renueva tu imagen con un corte moderno o clásico que se adapte a tu
+            estilo y personalidad. Nuestros barberos expertos te asesoran para
+            encontrar el look perfecto para ti.
+          </p>
+          <a class="button-box-servicio" href="#">¡Quiero este servicio!</a>
+        </article>
+        <article class="servicio-user">
+          <img
+            class="img-box-servicio"
+            src="../imgs/afeitado.jpg"
+            alt="Afeitado"
+          />
+          <h2>Afeitado</h2>
+          <p>
+            Disfruta de un afeitado preciso y cómodo con nuestras técnicas
+            tradicionales y productos de alta calidad. Logra un acabado
+            impecable sin irritaciones.
+          </p>
+          <a class="button-box-servicio" href="#">¡Quiero este servicio!</a>
+        </article>
+        <article class="servicio-user">
+          <img class="img-box-servicio" src="../imgs/barba.jpg" alt="Barba" />
+          <h2>Barba</h2>
+          <p>
+            Dale a tu barba el cuidado que se merece. Desde perfilado y recorte
+            hasta hidratación y tratamientos especiales, todo para que luzca
+            fuerte y bien definida.
+          </p>
+          <a class="button-box-servicio" href="#">¡Quiero este servicio!</a>
+        </article>
+        <article class="servicio-user">
+          <img class="img-box-servicio" src="../imgs/facial.jpg" alt="Facial" />
+          <h2>Facial</h2>
+          <p>
+            Cuida tu piel con un tratamiento facial diseñado para limpiar,
+            hidratar y revitalizar tu rostro. Ideal para mantener una apariencia
+            fresca y saludable.
+          </p>
+          <a class="button-box-servicio" href="#">¡Quiero este servicio!</a>
+        </article>
+      </section>
+    </main>
+
     <!-- Footer -->
     <footer class="footer">
       <div class="footerBox">
         <div class="footerBoxItem1">
           <h2>JORDANSHOP</h2>
-          <a href="#">Reserva una cita</a>
+          <a class="buttonReserva" href="#">Reserva una cita</a>
         </div>
         <div class="footerBoxItem2">
           <div class="itemBoxInfo">
@@ -79,10 +148,10 @@
           <div class="itemBoxInfo">
             <h3>Servicios</h3>
             <ul class="infoList">
-              <li><a href="../pages/servicios.html">Corte de Cabello</a></li>
-              <li><a href="../pages/servicios.html">Barba</a></li>
-              <li><a href="../pages/servicios.html">Afeitado</a></li>
-              <li><a href="../pages/servicios.html">Facial</a></li>
+              <li><a href="./servicios.html">Corte de Cabello</a></li>
+              <li><a href="./servicios.html">Barba</a></li>
+              <li><a href="./servicios.html">Afeitado</a></li>
+              <li><a href="./servicios.html">Facial</a></li>
             </ul>
           </div>
           <div class="itemBoxInfo">
@@ -96,15 +165,15 @@
               <li>
                 <a href="https://www.instagram.com/" target="_blank"
                   >Instagram</a
-                ><ion-icon name="logoInstagram"></ion-icon>
+                ><i class="bi bi-instagram"></i>
               </li>
               <li>
                 <a href="https://www.facebook.com/" target="_blank">Facebook</a
-                ><ion-icon name="logoFacebook"></ion-icon>
+                ><i class="bi bi-facebook"></i>
               </li>
               <li>
                 <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a
-                ><ion-icon name="logoWhatsapp"></ion-icon>
+                ><i class="bi bi-whatsapp"></i>
               </li>
             </ul>
           </div>

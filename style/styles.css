@@ -218,6 +218,320 @@ body {
   margin-top: 10px;
 }
 
+/* Sobre Nosotros */
+#sobre-nosotros {
+  background-color: var(--dark-light-yellow);
+  margin-top: 80px;
+}
+
+.cont-sobre-nosotros {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 50px;
+  padding: 60px;
+}
+
+.info-sobre {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.info-sobre h2 {
+  font-size: 48px;
+  color: var(--white);
+}
+
+.info-sobre p {
+  font-size: 24px;
+  color: var(--white-smoke);
+}
+
+.info-sobre a {
+  background-color: var(--light-brown);
+  border-radius: 12px;
+  padding: 8px 16px;
+  color: var(--white-smoke);
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  width: 300px;
+  text-align: center;
+}
+
+.info-sobre a:hover {
+  background-color: var(--dark-brown);
+}
+
+/* Locales */
+.locales {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/barberShop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+
+#section-locales {
+  background-color: var(--dark-light-yellow);
+}
+
+.locales h2 {
+  font-size: 52px;
+}
+
+.locales p {
+  font-size: 24px;
+}
+
+.locales hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+
+.locales-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.locales-distritos {
+  background-color: var(--dark-yellow);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 400px;
+  height: 100%;
+  color: var(--white-smoke);
+  text-align: center;
+}
+
+.locales-distritos:hover {
+  background-color: var(--dark-green);
+}
+
+.locales-distritos h2 {
+  font-size: 24px;
+}
+
+.locales-distritos p {
+  font-size: 14px;
+}
+
+.locales-distritos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.locales-distritos a {
+  background-color: var(--cream);
+  color: var(--dark-light-yellow);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+/* Servicios */
+
+.titulo-servicios {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/barberShop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+
+#servicios {
+  background-color: var(--dark-yellow);
+}
+
+.titulo-servicios h2 {
+  font-size: 52px;
+}
+
+.titulo-servicios p {
+  font-size: 24px;
+}
+
+.titulo-servicios hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+
+.box-servicios {
+  background-color: var(--dark-light-yellow);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.servicio-user {
+  background-color: var(--dark-yellow);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 400px;
+  height: 100%;
+  color: var(--white-smoke);
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.servicio-user:hover {
+  background-color: var(--dark-green);
+}
+
+.servicio-user h2 {
+  font-size: 24px;
+}
+
+.servicio-user p {
+  font-size: 14px;
+}
+
+.servicio-user img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.servicio-user a {
+  background-color: var(--cream);
+  color: var(--dark-light-yellow);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+/* Contacto */
+.titulo-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/barberShop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+
+.titulo-contact h1 {
+  font-size: 48px;
+}
+
+.titulo-contact p {
+  font-size: 24px;
+}
+
+.titulo-contact hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+
+#contacto {
+  background-color: var(--dark-yellow);
+}
+
+.contact-info {
+  display: flex;
+  padding: 60px;
+  justify-content: space-around;
+}
+
+.text-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  color: var(--white-smoke);
+}
+
+.text-contact h2 {
+  font-size: 32px;
+  color: var(--light-brown);
+}
+
+.text-contact ul {
+  list-style: none;
+  font-size: 24px;
+}
+
+.formulario-section {
+  background-color: var(--dark-yellow);
+  padding: 80px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  padding-top: 12px;
+  color: var(--light-brown);
+  text-align: left;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-form {
+  background-color: var(--dark-light-yellow);
+  color: var(--white-smoke);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
 /* Footer */
 .footer {
   background-color: var(--dark-yellow);
