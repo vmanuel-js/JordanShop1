@@ -14,12 +14,95 @@
   --dark-brown: #bc6c25;
   --dark-yellow: #21221c;
   --dark-light-yellow: #3c3d36;
-}
-
-html {
-  font-family: "Outfit", sans-serif;
+  --white: #fff;
 }
 
 img {
   width: 100%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/* NavBar */
+.navbar {
+  background-color: var(--dark-yellow);
+}
+
+.nav-link {
+  color: var(--white-smoke);
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: var(--light-brown);
+}
+
+.navbar-brand {
+  color: var(--light-brown);
+  font-size: 40px;
+}
+
+.navbar-brand:hover {
+  color: var(--dark-brown);
+}
+
+.buttonReserva {
+  color: var(--dark-yellow);
+  text-decoration: none;
+  background-color: var(--light-brown);
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+/* index.html */
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/barberShop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white-smoke);
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroTitulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.heroTitulos h1 {
+  font-size: 64px;
+}
+
+.heroTitulos p {
+  font-size: 22px;
+}
+
+.heroTitulos a {
+  font-size: 24px;
+  background-color: var(--light-brown);
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--white-smoke);
+  font-weight: 700;
+}
+
+.heroTitulos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
