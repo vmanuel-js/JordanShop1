@@ -35,6 +35,12 @@ body {
   font-size: 18px;
 }
 
+.navbar-nav {
+  display: flex;
+  flex-wrap: row;
+  gap: 40px;
+}
+
 .nav-link:hover {
   color: var(--light-brown);
 }
@@ -119,11 +125,10 @@ body {
 
 #testimoniales {
   background-color: var(--dark-light-yellow);
-  height: 100vh;
-  padding: 80px 80px 20px;
+  padding: 80px 60px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 
 .subtitulosImportantes {
@@ -168,12 +173,38 @@ body {
 
 /* Nuestras Herramientas de trabajo */
 
+/* .herramientasDeConfianza {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.herramientas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  gap: 20px;
+  background-color: var(--dark-yellow);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--white-smoke);
+}
+
+.herramientas:hover {
+  background-color: var(--dark-green);
+} */
+
 #herramientasDeTrabajo {
   background-color: var(--dark-light-yellow);
   height: auto;
   padding: 0px 80px 80px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   gap: 0px;
 }
 
@@ -184,11 +215,8 @@ body {
 }
 
 .herramientasDeConfianza {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
@@ -262,92 +290,6 @@ body {
 
 .info-sobre a:hover {
   background-color: var(--dark-brown);
-}
-
-/* Locales */
-.locales {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../imgs/barberShop.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  color: white;
-  padding: 20px;
-  gap: 15px;
-}
-
-#section-locales {
-  background-color: var(--dark-light-yellow);
-}
-
-.locales h2 {
-  font-size: 52px;
-}
-
-.locales p {
-  font-size: 24px;
-}
-
-.locales hr {
-  color: var(--white-smoke);
-  width: 25%;
-}
-
-.locales-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-  padding: 60px;
-}
-
-.locales-distritos {
-  background-color: var(--dark-yellow);
-  border-radius: 12px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 400px;
-  height: 100%;
-  color: var(--white-smoke);
-  text-align: center;
-}
-
-.locales-distritos:hover {
-  background-color: var(--dark-green);
-}
-
-.locales-distritos h2 {
-  font-size: 24px;
-}
-
-.locales-distritos p {
-  font-size: 14px;
-}
-
-.locales-distritos img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.locales-distritos a {
-  background-color: var(--cream);
-  color: var(--dark-light-yellow);
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 8px 16px;
 }
 
 /* Servicios */
@@ -430,6 +372,92 @@ body {
 }
 
 .servicio-user a {
+  background-color: var(--cream);
+  color: var(--dark-light-yellow);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+/* Locales */
+.locales {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../imgs/barberShop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+
+#section-locales {
+  background-color: var(--dark-light-yellow);
+}
+
+.locales h2 {
+  font-size: 52px;
+}
+
+.locales p {
+  font-size: 24px;
+}
+
+.locales hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+
+.locales-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.locales-distritos {
+  background-color: var(--dark-yellow);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 400px;
+  height: 100%;
+  color: var(--white-smoke);
+  text-align: center;
+}
+
+.locales-distritos:hover {
+  background-color: var(--dark-green);
+}
+
+.locales-distritos h2 {
+  font-size: 24px;
+}
+
+.locales-distritos p {
+  font-size: 14px;
+}
+
+.locales-distritos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.locales-distritos a {
   background-color: var(--cream);
   color: var(--dark-light-yellow);
   text-decoration: none;
@@ -550,6 +578,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footerBoxItem1 h2 {
@@ -620,4 +649,150 @@ select {
 .itemBoxInfo h3,
 .footerBoxItem3 p {
   color: var(--light-brown);
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1280px) {
+  /* NavBar */
+  .navbar-brand {
+    font-size: 32px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .navbar-nav {
+    gap: 20px;
+  }
+
+  /* Hero */
+  #hero {
+    padding-top: 60px;
+  }
+
+  .heroTitulos {
+    gap: 20px;
+    max-width: 700px;
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .heroTitulos h1 {
+    font-size: 48px;
+  }
+
+  .heroTitulos p {
+    font-size: 20px;
+  }
+
+  .heroTitulos a {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 16px;
+  }
+
+  /* Testimonios */
+
+  #testimoniales {
+    padding: 40px 45px;
+    gap: 20px;
+  }
+
+  .subtitulosImportantes {
+    font-size: 28px;
+  }
+
+  .testimonioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .testimonio {
+    gap: 10px;
+    width: 200px;
+    height: 500px;
+  }
+
+  /* Nuestras Herramientas de trabajo */
+  .herramientasDeConfianza {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  #herramientasDeTrabajo {
+    padding: 40px 45px;
+  }
+
+  #herramientasDeTrabajo .parrafoImportante {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #herramientasDeTrabajo p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  /* .herramientasDeConfianza {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  } */
+
+  .herramientas {
+    width: 250px;
+    height: 400px;
+    gap: 20px;
+  }
+
+  .herramientasDeConfianza img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* CELULAR */
+@media (max-width: 767px) {
+  /* NavBar */
+  .navbar-nav {
+    gap: 18px;
+  }
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  /* Hero */
+  #hero {
+    padding-top: 40px;
+  }
+
+  .heroTitulos {
+    gap: 18px;
+    max-width: 300px;
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .heroTitulos h1 {
+    font-size: 36px;
+  }
+
+  .heroTitulos p {
+    font-size: 16px;
+  }
+
+  .heroTitulos a {
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 8px 16px;
+  }
 }
