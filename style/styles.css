@@ -775,6 +775,42 @@ select {
     flex-direction: column;
     align-items: start;
   }
+
+  /* Servicios */
+
+  .titulo-servicios h2 {
+    font-size: 48px;
+  }
+
+  .titulo-servicios p {
+    font-size: 20px;
+  }
+
+  .titulo-servicios hr {
+    width: 70%;
+  }
+
+  .box-servicios {
+    gap: 40px;
+    padding: 45px;
+  }
+
+  .servicio-user {
+    width: 300px;
+    text-align: center;
+  }
+
+  .servicio-user h2 {
+    font-size: 22px;
+  }
+
+  .servicio-user p {
+    font-size: 14px;
+  }
+
+  .servicio-user a {
+    font-size: 16px;
+  }
 }
 
 /* CELULAR */
@@ -923,5 +959,35 @@ select {
     border-radius: 10px;
     font-size: 14px;
     width: 250px;
+  }
+
+  /* Servicios */
+  .titulo-servicios h2 {
+    font-size: 40px;
+  }
+
+  .titulo-servicios p {
+    font-size: 18px;
+  }
+
+  .titulo-servicios hr {
+    width: 75%;
+  }
+
+  .box-servicios {
+    gap: 36px;
+    padding: 40px;
+  }
+
+  .servicio-user h2 {
+    font-size: 20px;
+  }
+
+  .servicio-user p {
+    font-size: 14px;
+  }
+
+  .servicio-user a {
+    font-size: 14px;
   }
 }
