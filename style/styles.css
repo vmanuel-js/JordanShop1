@@ -531,6 +531,10 @@ select {
   cursor: pointer;
 }
 
+.contact-info iframe {
+  width: 600px;
+}
+
 /* Footer */
 .footer {
   background-color: var(--dark-yellow);
@@ -1120,7 +1124,7 @@ select {
     font-size: 14px;
   }
 
-  .text-contact iframe {
+  .contact-info iframe {
     width: 300px;
   }
 }
