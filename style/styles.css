@@ -797,7 +797,6 @@ select {
 
   .servicio-user {
     width: 300px;
-    text-align: center;
   }
 
   .servicio-user h2 {
@@ -809,6 +808,41 @@ select {
   }
 
   .servicio-user a {
+    font-size: 16px;
+  }
+
+  /* Locales */
+
+  .locales h2 {
+    font-size: 48px;
+  }
+
+  .locales p {
+    font-size: 20px;
+  }
+
+  .locales hr {
+    width: 70%;
+  }
+
+  .locales-info {
+    gap: 40px;
+    padding: 45px;
+  }
+
+  .locales-distritos {
+    width: 300px;
+  }
+
+  .locales-distritos h2 {
+    font-size: 22px;
+  }
+
+  .locales-distritos p {
+    font-size: 14px;
+  }
+
+  .locales-distritos a {
     font-size: 16px;
   }
 }
@@ -988,6 +1022,37 @@ select {
   }
 
   .servicio-user a {
+    font-size: 14px;
+  }
+
+  /* Locales */
+
+  .locales h2 {
+    font-size: 40px;
+  }
+
+  .locales p {
+    font-size: 18px;
+  }
+
+  .locales hr {
+    width: 75%;
+  }
+
+  .locales-info {
+    gap: 36px;
+    padding: 40px;
+  }
+
+  .locales-distritos h2 {
+    font-size: 20px;
+  }
+
+  .locales-distritos p {
+    font-size: 14px;
+  }
+
+  .locales-distritos a {
     font-size: 14px;
   }
 }
