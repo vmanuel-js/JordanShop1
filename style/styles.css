@@ -845,6 +845,38 @@ select {
   .locales-distritos a {
     font-size: 16px;
   }
+
+  /* Contacto */
+
+  .titulo-contact p {
+    font-size: 20px;
+  }
+
+  .titulo-contact hr {
+    width: 75%;
+  }
+
+  .contact-info {
+    padding: 60px;
+    flex-direction: column;
+  }
+
+  .text-contact h2 {
+    font-size: 28px;
+  }
+
+  .text-contact ul {
+    font-size: 20px;
+  }
+
+  .formulario-section {
+    padding: 60px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+  }
 }
 
 /* CELULAR */
@@ -1054,5 +1086,41 @@ select {
 
   .locales-distritos a {
     font-size: 14px;
+  }
+
+  /* Contacto */
+
+  .titulo-contact p {
+    font-size: 18px;
+  }
+
+  .titulo-contact hr {
+    width: 75%;
+  }
+
+  .contact-info {
+    padding: 40px;
+    flex-direction: column;
+  }
+
+  .text-contact h2 {
+    font-size: 24px;
+  }
+
+  .text-contact ul {
+    font-size: 18px;
+  }
+
+  .formulario-section {
+    padding: 60px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+  }
+
+  .text-contact iframe {
+    width: 300px;
   }
 }
