@@ -161,6 +161,7 @@ body {
 
 .testimonio:hover {
   background-color: var(--dark-green);
+  transform: translateY(-5px);
 }
 
 .testimonio img {
@@ -635,7 +636,7 @@ select {
   }
 
   .navbar-nav {
-    gap: 20px;
+    gap: 15px;
   }
 
   /* Hero */
@@ -687,6 +688,10 @@ select {
     height: 500px;
   }
 
+  .testimonio:hover {
+    transform: translateY(-3px);
+  }
+
   /* Nuestras Herramientas de trabajo */
   .herramientasDeConfianza {
     grid-template-columns: repeat(3, 1fr);
@@ -707,6 +712,36 @@ select {
   .herramientasDeConfianza img {
     width: 100px;
     height: 100px;
+  }
+
+  /* Sobre Nosotros */
+  #sobre-nosotros {
+    margin-top: 70px;
+  }
+
+  .cont-sobre-nosotros {
+    gap: 35px;
+    padding: 40px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .info-sobre {
+    gap: 28px;
+  }
+
+  .info-sobre h2 {
+    font-size: 36px;
+  }
+
+  .info-sobre p {
+    font-size: 18px;
+  }
+
+  .info-sobre a {
+    border-radius: 10px;
+    font-size: 16px;
+    width: 250px;
   }
 
   /* Footer */
@@ -805,6 +840,10 @@ select {
     height: 500px;
   }
 
+  .testimonio:hover {
+    transform: translateY(-3px);
+  }
+
   /* Nuestras Herramientas de Trabajo */
   .herramientasDeConfianza {
     grid-template-columns: repeat(1, 1fr);
@@ -845,13 +884,44 @@ select {
   }
 
   .footerBoxItem2 {
+    padding: 20px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .itemBoxInfo {
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+
+  /* Sobre Nosotros */
+  #sobre-nosotros {
+    margin-top: 60px;
+  }
+
+  .cont-sobre-nosotros {
+    gap: 35px;
+    padding: 60px 40px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .info-sobre {
+    gap: 28px;
+  }
+
+  .info-sobre h2 {
+    font-size: 28px;
+  }
+
+  .info-sobre p {
+    font-size: 16px;
+  }
+
+  .info-sobre a {
+    border-radius: 10px;
+    font-size: 14px;
+    width: 250px;
   }
 }
