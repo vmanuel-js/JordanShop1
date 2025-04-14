@@ -133,7 +133,7 @@ body {
 
 .subtitulosImportantes {
   font-size: 36px;
-  text-align: center;
+  text-align: start;
   color: var(--white);
 }
 
@@ -173,77 +173,47 @@ body {
 
 /* Nuestras Herramientas de trabajo */
 
-/* .herramientasDeConfianza {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  gap: 30px;
-}
-
-.herramientas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 400px;
-  gap: 20px;
-  background-color: var(--dark-yellow);
-  padding: 10px 20px;
-  border-radius: 12px;
-  color: var(--white-smoke);
-}
-
-.herramientas:hover {
-  background-color: var(--dark-green);
-} */
-
 #herramientasDeTrabajo {
   background-color: var(--dark-light-yellow);
   height: auto;
   padding: 0px 80px 80px;
-  /* display: flex;
-  flex-direction: column; */
   gap: 0px;
 }
 
 #herramientasDeTrabajo p {
   font-size: 18px;
   color: var(--white);
-  text-align: center;
+  text-align: start;
 }
 
 .herramientasDeConfianza {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 24px;
+  padding: 32px 16px;
 }
 
 .herramientas {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 400px;
-  gap: 20px;
-  background-color: var(--dark-yellow);
+  border: 1px solid var(--white-smoke);
+  color: var(--white-smoke);
   padding: 10px 20px;
   border-radius: 12px;
-  color: var(--white-smoke);
+  background-color: var(--dark-yellow);
+  transition: transform 0.2s;
 }
 
 .herramientas:hover {
   background-color: var(--dark-green);
+  transform: translateY(-5px);
 }
 
 .herramientasDeConfianza img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border-radius: 50%;
-  margin-top: 10px;
 }
 
 /* Sobre Nosotros */
@@ -719,40 +689,56 @@ select {
 
   /* Nuestras Herramientas de trabajo */
   .herramientasDeConfianza {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
   }
 
   #herramientasDeTrabajo {
-    padding: 40px 45px;
-  }
-
-  #herramientasDeTrabajo .parrafoImportante {
-    font-size: 20px;
-    text-align: center;
+    padding: 0px 60px 40px;
   }
 
   #herramientasDeTrabajo p {
-    font-size: 14px;
-    text-align: left;
+    font-size: 16px;
   }
 
-  /* .herramientasDeConfianza {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  } */
-
-  .herramientas {
-    width: 250px;
-    height: 400px;
-    gap: 20px;
+  .herramientas:hover {
+    transform: translateY(-3px);
   }
 
   .herramientasDeConfianza img {
     width: 100px;
     height: 100px;
+  }
+
+  /* Footer */
+
+  .footerBox {
+    padding: 60px 48px;
+    gap: 35px;
+  }
+
+  .footerBoxItem1 h2 {
+    font-size: 32px;
+  }
+
+  .footerBoxItem1 a {
+    padding: 12px 24px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .footerBoxItem2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .itemBoxInfo {
+    min-width: 200px;
+    max-width: 300px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 }
 
@@ -794,5 +780,78 @@ select {
     font-size: 18px;
     border-radius: 10px;
     padding: 8px 16px;
+  }
+
+  /* Testimonios */
+
+  #testimoniales {
+    padding: 36px 40px;
+    gap: 18px;
+  }
+
+  .subtitulosImportantes {
+    font-size: 24px;
+  }
+
+  .testimonioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .testimonio {
+    gap: 10px;
+    width: 200px;
+    height: 500px;
+  }
+
+  /* Nuestras Herramientas de Trabajo */
+  .herramientasDeConfianza {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #herramientasDeTrabajo {
+    padding: 0px 30px 20px;
+  }
+
+  #herramientasDeTrabajo p {
+    font-size: 14px;
+  }
+
+  .herramientas:hover {
+    transform: translateY(-2px);
+  }
+
+  .herramientasDeConfianza img {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* Footer */
+
+  .footerBox {
+    padding: 30px 36px;
+    gap: 20px;
+  }
+
+  .footerBoxItem1 h2 {
+    font-size: 24px;
+  }
+
+  .footerBoxItem1 a {
+    padding: 10px 20px;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  .footerBoxItem2 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .itemBoxInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 }
