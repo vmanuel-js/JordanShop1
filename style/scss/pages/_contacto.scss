@@ -1,0 +1,97 @@
+#contacto {
+  background-color: var(--dark-yellow);
+
+  .titulo-contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../imgs/contacto_barberia.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    gap: 15px;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+
+    hr {
+      color: var(--white-smoke);
+      width: 25%;
+    }
+  }
+
+  .contact-info {
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+
+    .text-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      color: var(--white-smoke);
+
+      h2 {
+        font-size: 32px;
+        color: var(--light-brown);
+      }
+
+      ul {
+        list-style: none;
+        font-size: 24px;
+      }
+    }
+
+    iframe {
+      width: 600px;
+    }
+  }
+}
+
+.formulario-section {
+  background-color: var(--dark-yellow);
+  padding: 80px;
+
+  form {
+    label {
+      font-weight: bold;
+      display: block;
+      padding-top: 12px;
+      color: var(--light-brown);
+      text-align: left;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .button-form {
+      background-color: var(--dark-light-yellow);
+      color: var(--white-smoke);
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+  }
+}

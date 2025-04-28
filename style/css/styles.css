@@ -25,33 +25,519 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-/* NavBar */
-.navbar {
+header .navbar {
   background-color: var(--dark-yellow);
 }
-
-.nav-link {
-  color: var(--white-smoke);
-  font-size: 18px;
+header .navbar .container-fluid .navbar-brand {
+  color: var(--light-brown);
+  font-size: 40px;
 }
-
-.navbar-nav {
+header .navbar .container-fluid .navbar-brand:hover {
+  color: var(--dark-brown);
+}
+header .navbar .container-fluid .navbar-toggler {
+  background-color: var(--light-brown);
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav {
   display: flex;
   flex-wrap: row;
   gap: 40px;
 }
-
-.nav-link:hover {
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: var(--white-smoke);
+  font-size: 18px;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: var(--light-brown);
 }
 
-.navbar-brand {
-  color: var(--light-brown);
+.footer {
+  background-color: var(--dark-yellow);
+  color: var(--white-smoke);
+}
+.footer .footerBox {
+  display: flex;
+  padding: 90px 64px;
+  gap: 40px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.footer .footerBox .footerBoxItem1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer .footerBox .footerBoxItem1 h2 {
   font-size: 40px;
+  color: var(--light-brown);
+}
+.footer .footerBox .footerBoxItem1 a {
+  padding: 16px 32px;
+  height: 56px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-brown);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--dark-yellow);
+  font-weight: 700;
+  font-size: 18px;
+}
+.footer .footerBox .footerBoxItem2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 20px 10px;
+}
+.footer .footerBox .footerBoxItem2 .itemBoxInfo {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footerBox .footerBoxItem2 .itemBoxInfo h3 {
+  color: var(--light-brown);
+}
+.footer .footerBox .footerBoxItem2 .itemBoxInfo .infoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+}
+.footer .footerBox .footerBoxItem2 .itemBoxInfo .infoList li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--light-brown);
+}
+.footer .footerBox .footerBoxItem2 .itemBoxInfo .infoList a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--white-smoke);
+}
+.footer .footerBox .footerBoxItem3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footerBox .footerBoxItem3 p {
+  color: var(--light-brown);
 }
 
-.navbar-brand:hover {
-  color: var(--dark-brown);
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/barberShop.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: var(--white-smoke);
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#hero .heroTitulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+}
+#hero .heroTitulos h1 {
+  font-size: 64px;
+}
+#hero .heroTitulos p {
+  font-size: 22px;
+}
+#hero .heroTitulos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#testimoniales {
+  background-color: var(--dark-light-yellow);
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#testimoniales .subtitulosImportantes {
+  font-size: 36px;
+  text-align: center;
+  color: var(--white);
+}
+#testimoniales .testimonioContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+#testimoniales .testimonioContainer .testimonio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  height: 400px;
+  background-color: var(--dark-yellow);
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--white);
+}
+#testimoniales .testimonioContainer .testimonio img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+#testimoniales .testimonioContainer .testimonio:hover {
+  background-color: var(--dark-green);
+  transform: translateY(-5px);
+}
+
+#herramientasDeTrabajo {
+  background-color: var(--dark-light-yellow);
+  height: auto;
+  padding: 0px 80px 80px;
+  gap: 0px;
+}
+#herramientasDeTrabajo .subtitulosImportantes {
+  font-size: 36px;
+  text-align: center;
+  color: var(--white);
+}
+#herramientasDeTrabajo .parrafoImportante {
+  font-size: 18px;
+  color: var(--white);
+  text-align: center;
+}
+#herramientasDeTrabajo .herramientasDeConfianza {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 32px 16px;
+}
+#herramientasDeTrabajo .herramientasDeConfianza .herramientas {
+  border: 1px solid var(--white-smoke);
+  color: var(--white-smoke);
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: var(--dark-yellow);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#herramientasDeTrabajo .herramientasDeConfianza .herramientas:hover {
+  background-color: var(--dark-green);
+  transform: translateY(-5px);
+}
+#herramientasDeTrabajo .herramientasDeConfianza .herramientas img {
+  width: 100%;
+  height: auto;
+  border-radius: 1000px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#sobre-nosotros {
+  background-color: var(--dark-light-yellow);
+  margin-top: 80px;
+}
+#sobre-nosotros .cont-sobre-nosotros {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 50px;
+  padding: 60px;
+}
+#sobre-nosotros .cont-sobre-nosotros .info-sobre {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+#sobre-nosotros .cont-sobre-nosotros .info-sobre hr {
+  color: var(--white);
+}
+#sobre-nosotros .cont-sobre-nosotros .info-sobre h2 {
+  font-size: 48px;
+  color: var(--white);
+}
+#sobre-nosotros .cont-sobre-nosotros .info-sobre p {
+  font-size: 24px;
+  color: var(--white-smoke);
+}
+#sobre-nosotros .cont-sobre-nosotros .info-sobre a {
+  background-color: var(--light-brown);
+  border-radius: 12px;
+  padding: 8px 16px;
+  color: var(--white-smoke);
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  width: 300px;
+  text-align: center;
+}
+#sobre-nosotros .cont-sobre-nosotros .info-sobre a:hover {
+  background-color: var(--dark-brown);
+}
+
+#servicios {
+  background-color: var(--dark-yellow);
+}
+#servicios .titulo-servicios {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/Nuestros_Servicios.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+#servicios .titulo-servicios h2 {
+  font-size: 52px;
+}
+#servicios .titulo-servicios hr {
+  color: var(--white-smoke);
+}
+#servicios .titulo-servicios p {
+  font-size: 24px;
+}
+
+.titulo-servicios .titulo-servicios hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+
+.box-servicios {
+  background-color: var(--dark-light-yellow);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+.box-servicios .servicio-user {
+  background-color: var(--dark-yellow);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 400px;
+  height: 100%;
+  color: var(--white-smoke);
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.box-servicios .servicio-user .img-box-servicio {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.box-servicios .servicio-user h2 {
+  font-size: 24px;
+}
+.box-servicios .servicio-user p {
+  font-size: 14px;
+}
+.box-servicios .servicio-user .button-box-servicio {
+  background-color: var(--cream);
+  color: var(--dark-light-yellow);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+.box-servicios .servicio-user .button-box-servicio:hover {
+  background-color: var(--dark-light-yellow);
+  color: var(--white-smoke);
+}
+.box-servicios .servicio-user:hover {
+  background-color: var(--dark-green);
+}
+
+#section-locales {
+  background-color: var(--dark-light-yellow);
+}
+#section-locales .locales {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/locales_barberia.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+#section-locales .locales h2 {
+  font-size: 52px;
+}
+#section-locales .locales p {
+  font-size: 24px;
+}
+#section-locales .locales hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+#section-locales .locales-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+#section-locales .locales-info .locales-distritos {
+  background-color: var(--dark-yellow);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 400px;
+  height: 100%;
+  color: var(--white-smoke);
+  text-align: center;
+}
+#section-locales .locales-info .locales-distritos h3 {
+  font-size: 24px;
+}
+#section-locales .locales-info .locales-distritos p {
+  font-size: 14px;
+}
+#section-locales .locales-info .locales-distritos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#section-locales .locales-info .locales-distritos a {
+  background-color: var(--cream);
+  color: var(--dark-light-yellow);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+#section-locales .locales-info .locales-distritos:hover {
+  background-color: var(--dark-green);
+}
+
+#contacto {
+  background-color: var(--dark-yellow);
+}
+#contacto .titulo-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/contacto_barberia.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  padding: 20px;
+  gap: 15px;
+}
+#contacto .titulo-contact h1 {
+  font-size: 48px;
+}
+#contacto .titulo-contact p {
+  font-size: 24px;
+}
+#contacto .titulo-contact hr {
+  color: var(--white-smoke);
+  width: 25%;
+}
+#contacto .contact-info {
+  display: flex;
+  padding: 60px;
+  justify-content: space-around;
+}
+#contacto .contact-info .text-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  color: var(--white-smoke);
+}
+#contacto .contact-info .text-contact h2 {
+  font-size: 32px;
+  color: var(--light-brown);
+}
+#contacto .contact-info .text-contact ul {
+  list-style: none;
+  font-size: 24px;
+}
+#contacto .contact-info iframe {
+  width: 600px;
+}
+
+.formulario-section {
+  background-color: var(--dark-yellow);
+  padding: 80px;
+}
+.formulario-section form label {
+  font-weight: bold;
+  display: block;
+  padding-top: 12px;
+  color: var(--light-brown);
+  text-align: left;
+}
+.formulario-section form input,
+.formulario-section form select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.formulario-section form .button-form {
+  background-color: var(--dark-light-yellow);
+  color: var(--white-smoke);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 .buttonReserva {
@@ -68,716 +554,113 @@ body {
   background-color: var(--dark-brown);
 }
 
-.navbar-toggler {
-  background-color: var(--light-brown);
-}
-
-/* Hero */
-#hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../imgs/barberShop.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  color: var(--white-smoke);
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.heroTitulos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-  max-width: 1000px;
-  width: 100%;
-  padding: 0 20px;
-}
-
-.heroTitulos h1 {
-  font-size: 64px;
-}
-
-.heroTitulos p {
-  font-size: 22px;
-}
-
-.heroTitulos a {
-  font-size: 24px;
-  background-color: var(--light-brown);
-  border-radius: 12px;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: var(--white-smoke);
-  font-weight: 700;
-}
-
-.heroTitulos ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Testimonios */
-
-#testimoniales {
-  background-color: var(--dark-light-yellow);
-  padding: 80px 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.subtitulosImportantes {
-  font-size: 36px;
-  text-align: start;
-  color: var(--white);
-}
-
-.testimonioContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 30px;
-}
-
-.testimonio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 400px;
-  height: 400px;
-  background-color: var(--dark-yellow);
-  padding: 10px 20px;
-  border-radius: 12px;
-  color: var(--white);
-}
-
-.testimonio:hover {
-  background-color: var(--dark-green);
-  transform: translateY(-5px);
-}
-
-.testimonio img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-
-/* Nuestras Herramientas de trabajo */
-
-#herramientasDeTrabajo {
-  background-color: var(--dark-light-yellow);
-  height: auto;
-  padding: 0px 80px 80px;
-  gap: 0px;
-}
-
-#herramientasDeTrabajo p {
-  font-size: 18px;
-  color: var(--white);
-  text-align: start;
-}
-
-.herramientasDeConfianza {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  padding: 32px 16px;
-}
-
-.herramientas {
-  border: 1px solid var(--white-smoke);
-  color: var(--white-smoke);
-  padding: 10px 20px;
-  border-radius: 12px;
-  background-color: var(--dark-yellow);
-  transition: transform 0.2s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.herramientas:hover {
-  background-color: var(--dark-green);
-  transform: translateY(-5px);
-}
-
-.herramientasDeConfianza img {
-  width: 100%;
-  height: auto;
-  border-radius: 1000px;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-}
-
-/* Sobre Nosotros */
-#sobre-nosotros {
-  background-color: var(--dark-light-yellow);
-  margin-top: 80px;
-}
-
-.cont-sobre-nosotros {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  gap: 50px;
-  padding: 60px;
-}
-
-.info-sobre {
-  display: flex;
-  gap: 32px;
-  flex-direction: column;
-}
-
-.info-sobre h2 {
-  font-size: 48px;
-  color: var(--white);
-}
-
-.info-sobre p {
-  font-size: 24px;
-  color: var(--white-smoke);
-}
-
-.info-sobre a {
-  background-color: var(--light-brown);
-  border-radius: 12px;
-  padding: 8px 16px;
-  color: var(--white-smoke);
-  font-weight: 600;
-  font-size: 18px;
-  text-decoration: none;
-  width: 300px;
-  text-align: center;
-}
-
-.info-sobre a:hover {
-  background-color: var(--dark-brown);
-}
-
-/* Servicios */
-
-.titulo-servicios {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../imgs/Nuestros_Servicios.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  color: white;
-  padding: 20px;
-  gap: 15px;
-}
-
-#servicios {
-  background-color: var(--dark-yellow);
-}
-
-.titulo-servicios h2 {
-  font-size: 52px;
-}
-
-.titulo-servicios p {
-  font-size: 24px;
-}
-
-.titulo-servicios hr {
-  color: var(--white-smoke);
-  width: 25%;
-}
-
-.box-servicios {
-  background-color: var(--dark-light-yellow);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-  padding: 60px;
-}
-
-.servicio-user {
-  background-color: var(--dark-yellow);
-  border-radius: 12px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 400px;
-  height: 100%;
-  color: var(--white-smoke);
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.servicio-user:hover {
-  background-color: var(--dark-green);
-}
-
-.servicio-user h2 {
-  font-size: 24px;
-}
-
-.servicio-user p {
-  font-size: 14px;
-}
-
-.servicio-user img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.servicio-user a {
-  background-color: var(--cream);
-  color: var(--dark-light-yellow);
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 8px 16px;
-}
-
-/* Locales */
-.locales {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../imgs/locales_barberia.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  color: white;
-  padding: 20px;
-  gap: 15px;
-}
-
-#section-locales {
-  background-color: var(--dark-light-yellow);
-}
-
-.locales h2 {
-  font-size: 52px;
-}
-
-.locales p {
-  font-size: 24px;
-}
-
-.locales hr {
-  color: var(--white-smoke);
-  width: 25%;
-}
-
-.locales-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-  padding: 60px;
-}
-
-.locales-distritos {
-  background-color: var(--dark-yellow);
-  border-radius: 12px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 400px;
-  height: 100%;
-  color: var(--white-smoke);
-  text-align: center;
-}
-
-.locales-distritos:hover {
-  background-color: var(--dark-green);
-}
-
-.locales-distritos h2 {
-  font-size: 24px;
-}
-
-.locales-distritos p {
-  font-size: 14px;
-}
-
-.locales-distritos img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.locales-distritos a {
-  background-color: var(--cream);
-  color: var(--dark-light-yellow);
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 8px 16px;
-}
-
-/* Contacto */
-.titulo-contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../imgs/contacto_barberia.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  color: white;
-  padding: 20px;
-  gap: 15px;
-}
-
-.titulo-contact h1 {
-  font-size: 48px;
-}
-
-.titulo-contact p {
-  font-size: 24px;
-}
-
-.titulo-contact hr {
-  color: var(--white-smoke);
-  width: 25%;
-}
-
-#contacto {
-  background-color: var(--dark-yellow);
-}
-
-.contact-info {
-  display: flex;
-  padding: 60px;
-  justify-content: space-around;
-}
-
-.text-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  color: var(--white-smoke);
-}
-
-.text-contact h2 {
-  font-size: 32px;
-  color: var(--light-brown);
-}
-
-.text-contact ul {
-  list-style: none;
-  font-size: 24px;
-}
-
-.formulario-section {
-  background-color: var(--dark-yellow);
-  padding: 80px;
-}
-
-label {
-  font-weight: bold;
-  display: block;
-  padding-top: 12px;
-  color: var(--light-brown);
-  text-align: left;
-}
-
-input,
-select {
-  width: 100%;
-  padding: 12px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.button-form {
-  background-color: var(--dark-light-yellow);
-  color: var(--white-smoke);
-  border: none;
-  padding: 10px;
-  width: 100%;
-  border-radius: 5px;
-  margin-top: 15px;
-  cursor: pointer;
-}
-
-.contact-info iframe {
-  width: 600px;
-}
-
-/* Footer */
-.footer {
-  background-color: var(--dark-yellow);
-  color: var(--white-smoke);
-}
-
-.footerBox {
-  display: flex;
-  padding: 90px 64px;
-  gap: 40px;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.footerBoxItem1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footerBoxItem1 h2 {
-  font-size: 40px;
-}
-
-.footerBoxItem1 a {
-  padding: 16px 32px;
-  height: 56px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--light-brown);
-  border-radius: 12px;
-  text-decoration: none;
-  color: var(--dark-yellow);
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.footerBoxItem2 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 35px;
-  padding: 20px 10px;
-}
-
-.itemBoxInfo {
-  flex: 1;
-  min-width: 200px;
-  max-width: 300px;
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footerBoxItem3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.infoList {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 5px;
-}
-
-.infoList li {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  color: var(--light-brown);
-}
-
-.infoList a {
-  text-decoration: none;
-  list-style: none;
-  color: var(--white-smoke);
-}
-
-.footerBoxItem1 h2,
-.itemBoxInfo h3,
-.footerBoxItem3 p {
-  color: var(--light-brown);
-}
-
-/* MEDIA QUERIES */
-
-/* TABLET */
 @media (min-width: 768px) and (max-width: 1280px) {
-  /* NavBar */
-  .navbar-brand {
+  header .navbar .container-fluid .navbar-brand {
     font-size: 32px;
   }
-
-  .nav-link {
-    font-size: 16px;
-  }
-
-  .navbar-nav {
+  header .navbar .container-fluid .navbar-collapse .navbar-nav {
     gap: 15px;
   }
-
-  /* Hero */
+  header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+  }
   #hero {
     padding-top: 60px;
   }
-
-  .heroTitulos {
+  #hero .heroTitulos {
     gap: 20px;
     max-width: 700px;
     width: 100%;
     padding: 0 16px;
   }
-
-  .heroTitulos h1 {
+  #hero .heroTitulos h1 {
     font-size: 48px;
   }
-
-  .heroTitulos p {
+  #hero .heroTitulos p {
     font-size: 20px;
   }
-
-  .heroTitulos a {
+  #hero .heroTitulos .buttonReserva {
     font-size: 20px;
     border-radius: 10px;
     padding: 8px 16px;
   }
-
-  /* Testimonios */
-
   #testimoniales {
     padding: 40px 45px;
     gap: 20px;
   }
-
-  .subtitulosImportantes {
+  #testimoniales .subtitulosImportantes {
     font-size: 28px;
   }
-
-  .testimonioContainer {
+  #testimoniales .testimonioContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
-
-  .testimonio {
+  #testimoniales .testimonioContainer .testimonio {
     gap: 10px;
     width: 200px;
     height: 500px;
   }
-
-  .testimonio:hover {
+  #testimoniales .testimonioContainer .testimonio:hover {
     transform: translateY(-3px);
   }
-
-  /* Nuestras Herramientas de trabajo */
-  .herramientasDeConfianza {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   #herramientasDeTrabajo {
     padding: 0px 60px 40px;
   }
-
-  #herramientasDeTrabajo p {
+  #herramientasDeTrabajo .parrafoImportante {
     font-size: 16px;
   }
-
-  .herramientas:hover {
+  #herramientasDeTrabajo .herramientasDeConfianza {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #herramientasDeTrabajo .herramientasDeConfianza .herramientas:hover {
     transform: translateY(-3px);
   }
-
-  .herramientasDeConfianza img {
+  #herramientasDeTrabajo .herramientasDeConfianza .herramientas img {
     width: 100px;
     height: 100px;
   }
-
-  /* Sobre Nosotros */
   #sobre-nosotros {
     margin-top: 70px;
   }
-
-  .cont-sobre-nosotros {
+  #sobre-nosotros .cont-sobre-nosotros {
     gap: 35px;
     padding: 40px;
     align-items: center;
     flex-direction: column;
   }
-
-  .info-sobre {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre {
     gap: 28px;
   }
-
-  .info-sobre h2 {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre h2 {
     font-size: 36px;
   }
-
-  .info-sobre p {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre p {
     font-size: 18px;
   }
-
-  .info-sobre a {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre a {
     border-radius: 10px;
     font-size: 16px;
     width: 250px;
   }
-
-  /* Footer */
-
-  .footerBox {
+  .footer .footerBox {
     padding: 60px 48px;
     gap: 35px;
   }
-
-  .footerBoxItem1 h2 {
+  .footer .footerBox .footerBoxItem1 h2 {
     font-size: 32px;
   }
-
-  .footerBoxItem1 a {
+  .footer .footerBox .footerBoxItem1 a {
     padding: 12px 24px;
     height: 48px;
     border-radius: 10px;
     font-size: 16px;
   }
-
-  .footerBoxItem2 {
+  .footer .footerBox .footerBoxItem2 {
     display: flex;
     justify-content: space-around;
   }
-
-  .itemBoxInfo {
+  .footer .footerBox .footerBoxItem2 .itemBoxInfo {
     min-width: 200px;
     max-width: 300px;
     gap: 5px;
@@ -785,352 +668,262 @@ select {
     flex-direction: column;
     align-items: start;
   }
-
-  /* Servicios */
-
-  .titulo-servicios h2 {
+  #servicios .titulo-servicios h2 {
     font-size: 48px;
   }
-
-  .titulo-servicios p {
+  #servicios .titulo-servicios p {
     font-size: 20px;
   }
-
-  .titulo-servicios hr {
+  #servicios .titulo-servicios hr {
     width: 70%;
   }
-
   .box-servicios {
     gap: 40px;
     padding: 45px;
   }
-
-  .servicio-user {
+  .box-servicios .servicio-user {
     width: 300px;
   }
-
-  .servicio-user h2 {
+  .box-servicios .servicio-user h2 {
     font-size: 22px;
   }
-
-  .servicio-user p {
+  .box-servicios .servicio-user p {
     font-size: 14px;
   }
-
-  .servicio-user a {
+  .box-servicios .servicio-user a {
     font-size: 16px;
   }
-
-  /* Locales */
-
-  .locales h2 {
+  #section-locales .locales h2 {
     font-size: 48px;
   }
-
-  .locales p {
+  #section-locales .locales p {
     font-size: 20px;
   }
-
-  .locales hr {
+  #section-locales .locales hr {
     width: 70%;
   }
-
-  .locales-info {
+  #section-locales .locales-info {
     gap: 40px;
     padding: 45px;
   }
-
-  .locales-distritos {
+  #section-locales .locales-info .locales-distritos {
     width: 300px;
   }
-
-  .locales-distritos h2 {
+  #section-locales .locales-info .locales-distritos h3 {
     font-size: 22px;
   }
-
-  .locales-distritos p {
+  #section-locales .locales-info .locales-distritos p {
     font-size: 14px;
   }
-
-  .locales-distritos a {
+  #section-locales .locales-info .locales-distritos a {
     font-size: 16px;
   }
-
-  /* Contacto */
-
-  .titulo-contact p {
+  #contacto .titulo-contact p {
     font-size: 20px;
   }
-
-  .titulo-contact hr {
+  #contacto .titulo-contact hr {
     width: 75%;
   }
-
-  .contact-info {
+  #contacto .contact-info {
     padding: 60px;
     flex-direction: column;
   }
-
-  .text-contact h2 {
+  #contacto .contact-info .text-contact h2 {
     font-size: 28px;
   }
-
-  .text-contact ul {
+  #contacto .contact-info .text-contact ul {
     font-size: 20px;
   }
-
   .formulario-section {
     padding: 60px;
   }
-
-  input,
-  select {
+  .formulario-section input,
+  .formulario-section select {
     font-size: 14px;
   }
 }
-
-/* CELULAR */
 @media (max-width: 767px) {
   /* NavBar */
-  .navbar-nav {
+  header .navbar .container-fluid .navbar-brand {
+    font-size: 22px;
+  }
+  header .navbar .container-fluid .navbar-collapse .navbar-nav {
     gap: 18px;
   }
-  .navbar-brand {
-    font-size: 24px;
-  }
-
-  .nav-link {
+  header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-size: 14px;
   }
-
-  /* Hero */
   #hero {
     padding-top: 40px;
   }
-
-  .heroTitulos {
+  #hero .heroTitulos {
     gap: 18px;
     max-width: 300px;
     width: 100%;
     padding: 0 16px;
   }
-
-  .heroTitulos h1 {
+  #hero .heroTitulos h1 {
     font-size: 36px;
   }
-
-  .heroTitulos p {
+  #hero .heroTitulos p {
     font-size: 16px;
   }
-
-  .heroTitulos a {
+  #hero .heroTitulos .buttonReserva {
     font-size: 18px;
     border-radius: 10px;
     padding: 8px 16px;
   }
-
-  /* Testimonios */
-
   #testimoniales {
     padding: 36px 40px;
     gap: 18px;
   }
-
-  .subtitulosImportantes {
+  #testimoniales .subtitulosImportantes {
     font-size: 24px;
   }
-
-  .testimonioContainer {
+  #testimoniales .testimonioContainer {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
   }
-
-  .testimonio {
+  #testimoniales .testimonioContainer .testimonio {
     gap: 10px;
     width: 200px;
     height: 500px;
   }
-
-  .testimonio:hover {
+  #testimoniales .testimonioContainer:hover {
     transform: translateY(-3px);
   }
-
-  /* Nuestras Herramientas de Trabajo */
-  .herramientasDeConfianza {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
   #herramientasDeTrabajo {
     padding: 0px 30px 20px;
   }
-
   #herramientasDeTrabajo p {
     font-size: 14px;
   }
-
-  .herramientas:hover {
+  #herramientasDeTrabajo .herramientasDeConfianza {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #herramientasDeTrabajo .herramientasDeConfianza .herramientas:hover {
     transform: translateY(-2px);
   }
-
-  .herramientasDeConfianza img {
+  #herramientasDeTrabajo .herramientasDeConfianza .herramientas img {
     width: 90px;
     height: 90px;
   }
-
-  /* Footer */
-
-  .footerBox {
+  .footer .footerBox {
     padding: 30px 36px;
     gap: 20px;
   }
-
-  .footerBoxItem1 h2 {
+  .footer .footerBox .footerBoxItem1 h2 {
     font-size: 24px;
   }
-
-  .footerBoxItem1 a {
+  .footer .footerBox .footerBoxItem1 a {
     padding: 10px 20px;
     height: 44px;
     font-size: 14px;
   }
-
-  .footerBoxItem2 {
+  .footer .footerBox .footerBoxItem2 {
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
   }
-
-  .itemBoxInfo {
+  .footer .footerBox .footerBoxItem2 .itemBoxInfo {
     display: flex;
     flex-direction: column;
     align-items: start;
   }
-
-  /* Sobre Nosotros */
   #sobre-nosotros {
     margin-top: 60px;
   }
-
-  .cont-sobre-nosotros {
+  #sobre-nosotros .cont-sobre-nosotros {
     gap: 35px;
     padding: 60px 40px;
     align-items: center;
     flex-direction: column;
   }
-
-  .info-sobre {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre {
     gap: 28px;
   }
-
-  .info-sobre h2 {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre h2 {
     font-size: 28px;
   }
-
-  .info-sobre p {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre p {
     font-size: 16px;
   }
-
-  .info-sobre a {
+  #sobre-nosotros .cont-sobre-nosotros .info-sobre a {
     border-radius: 10px;
     font-size: 14px;
     width: 250px;
   }
-
-  /* Servicios */
-  .titulo-servicios h2 {
+  #servicios .titulo-servicios h2 {
     font-size: 40px;
   }
-
-  .titulo-servicios p {
+  #servicios .titulo-servicios p {
     font-size: 18px;
   }
-
-  .titulo-servicios hr {
+  #servicios .titulo-servicios hr {
     width: 75%;
   }
-
   .box-servicios {
     gap: 36px;
     padding: 40px;
   }
-
-  .servicio-user h2 {
+  .box-servicios .servicio-user h2 {
     font-size: 20px;
   }
-
-  .servicio-user p {
+  .box-servicios .servicio-user p {
     font-size: 14px;
   }
-
-  .servicio-user a {
+  .box-servicios .servicio-user a {
     font-size: 14px;
   }
-
-  /* Locales */
-
-  .locales h2 {
+  #section-locales .locales h2 {
     font-size: 40px;
   }
-
-  .locales p {
+  #section-locales .locales p {
     font-size: 18px;
   }
-
-  .locales hr {
+  #section-locales .locales hr {
     width: 75%;
   }
-
-  .locales-info {
+  #section-locales .locales-info {
     gap: 36px;
     padding: 40px;
   }
-
-  .locales-distritos h2 {
+  #section-locales .locales-info .locales-distritos h3 {
     font-size: 20px;
   }
-
-  .locales-distritos p {
+  #section-locales .locales-info .locales-distritos p {
     font-size: 14px;
   }
-
-  .locales-distritos a {
+  #section-locales .locales-info .locales-distritos a {
     font-size: 14px;
   }
-
-  /* Contacto */
-
-  .titulo-contact p {
+  #contacto .titulo-contact p {
     font-size: 18px;
   }
-
-  .titulo-contact hr {
+  #contacto .titulo-contact hr {
     width: 75%;
   }
-
-  .contact-info {
+  #contacto .contact-info {
     padding: 40px;
     flex-direction: column;
   }
-
-  .text-contact h2 {
+  #contacto .contact-info iframe {
+    width: 250px;
+  }
+  #contacto .contact-info .text-contact h2 {
     font-size: 24px;
   }
-
-  .text-contact ul {
+  #contacto .contact-info .text-contact ul {
     font-size: 18px;
   }
-
   .formulario-section {
     padding: 60px;
   }
-
-  input,
-  select {
+  .formulario-section input,
+  .formulario-section select {
     font-size: 14px;
   }
-
-  .contact-info iframe {
-    width: 300px;
-  }
 }
+
+/*# sourceMappingURL=styles.css.map */
