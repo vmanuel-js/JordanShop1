@@ -43,23 +43,11 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav {
   flex-wrap: row;
   gap: 40px;
 }
-header
-  .navbar
-  .container-fluid
-  .navbar-collapse
-  .navbar-nav
-  .nav-item
-  .nav-link {
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #f5f5f5;
   font-size: 18px;
 }
-header
-  .navbar
-  .container-fluid
-  .navbar-collapse
-  .navbar-nav
-  .nav-item
-  .nav-link:hover {
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: #dda15e;
 }
 
@@ -145,8 +133,7 @@ header
 }
 
 #hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../imgs/barberShop.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/barberShop.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -317,8 +304,7 @@ header
   background-color: var(--dark-yellow);
 }
 #servicios .titulo-servicios {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../imgs/Nuestros_Servicios.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/Nuestros_Servicios.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -402,8 +388,7 @@ header
   background-color: var(--dark-light-yellow);
 }
 #section-locales .locales {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../imgs/locales_barberia.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/locales_barberia.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -476,8 +461,7 @@ header
   background-color: var(--dark-yellow);
 }
 #contacto .titulo-contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../imgs/contacto_barberia.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/contacto_barberia.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -570,6 +554,51 @@ header
   background-color: var(--dark-brown);
 }
 
+.botonWhatsapp {
+  background-color: var(--dark-light-yellow);
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 25%;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.botonWhatsapp .bi-whatsapp {
+  color: var(--light-brown);
+  font-size: 50px;
+}
+.botonWhatsapp:hover {
+  background-color: var(--dark-yellow);
+  box-shadow: 0px 0px 10px rgb(59, 58, 58);
+  transition: 0.5s ease;
+}
+
+.botonArriba {
+  background-color: var(--dark-light-yellow);
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 25%;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+.botonArriba .bi-arrow-up {
+  color: var(--light-brown);
+  font-size: 30px;
+}
+.botonArriba .bi-arrow-up:hover {
+  transition: 0.2s ease;
+}
+.botonArriba:hover {
+  background-color: var(--dark-yellow);
+  box-shadow: 0px 0px 10px rgb(59, 58, 58);
+  transition: 0.5s ease;
+}
+
 @media (min-width: 768px) and (max-width: 1280px) {
   header .navbar .container-fluid .navbar-brand {
     font-size: 32px;
@@ -577,13 +606,7 @@ header
   header .navbar .container-fluid .navbar-collapse .navbar-nav {
     gap: 15px;
   }
-  header
-    .navbar
-    .container-fluid
-    .navbar-collapse
-    .navbar-nav
-    .nav-item
-    .nav-link {
+  header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-size: 16px;
   }
   #hero {
@@ -772,13 +795,7 @@ header
   header .navbar .container-fluid .navbar-collapse .navbar-nav {
     gap: 18px;
   }
-  header
-    .navbar
-    .container-fluid
-    .navbar-collapse
-    .navbar-nav
-    .nav-item
-    .nav-link {
+  header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
     font-size: 14px;
   }
   #hero {
