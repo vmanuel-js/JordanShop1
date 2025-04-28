@@ -1,6 +1,6 @@
 .footer {
-  background-color: var(--dark-yellow);
-  color: var(--white-smoke);
+  background-color: $dark-yellow;
+  color: $white-smoke;
 
   .footerBox {
     display: flex;
@@ -17,7 +17,7 @@
 
       h2 {
         font-size: 40px;
-        color: var(--light-brown);
+        color: $light-brown;
       }
 
       a {
@@ -27,10 +27,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--light-brown);
+        background-color: $light-brown;
         border-radius: 12px;
         text-decoration: none;
-        color: var(--dark-yellow);
+        color: $dark-yellow;
         font-weight: 700;
         font-size: 18px;
       }
@@ -52,7 +52,7 @@
         align-items: center;
 
         h3 {
-          color: var(--light-brown);
+          color: $light-brown;
         }
 
         .infoList {
@@ -66,13 +66,13 @@
             display: flex;
             justify-content: space-between;
             gap: 10px;
-            color: var(--light-brown);
+            color: $light-brown;
           }
 
           a {
             text-decoration: none;
             list-style: none;
-            color: var(--white-smoke);
+            color: $white-smoke;
           }
         }
       }
@@ -84,7 +84,7 @@
       justify-content: center;
 
       p {
-        color: var(--light-brown);
+        color: $light-brown;
       }
     }
   }

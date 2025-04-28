@@ -77,7 +77,10 @@
       }
 
       &:hover {
-        background-color: var(--dark-green);
+        filter: brightness(80%);
+        transition: ease-in-out 0.4s;
+        transform: scale(1.1);
+        color: var(--white-smoke);
       }
     }
   }

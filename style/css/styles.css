@@ -26,17 +26,17 @@ body {
 }
 
 header .navbar {
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
 }
 header .navbar .container-fluid .navbar-brand {
-  color: var(--light-brown);
+  color: #dda15e;
   font-size: 40px;
 }
 header .navbar .container-fluid .navbar-brand:hover {
-  color: var(--dark-brown);
+  color: #bc6c25;
 }
 header .navbar .container-fluid .navbar-toggler {
-  background-color: var(--light-brown);
+  background-color: #dda15e;
 }
 header .navbar .container-fluid .navbar-collapse .navbar-nav {
   display: flex;
@@ -44,16 +44,16 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav {
   gap: 40px;
 }
 header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: var(--white-smoke);
+  color: #f5f5f5;
   font-size: 18px;
 }
 header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
-  color: var(--light-brown);
+  color: #dda15e;
 }
 
 .footer {
-  background-color: var(--dark-yellow);
-  color: var(--white-smoke);
+  background-color: #21221c;
+  color: #f5f5f5;
 }
 .footer .footerBox {
   display: flex;
@@ -70,7 +70,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 }
 .footer .footerBox .footerBoxItem1 h2 {
   font-size: 40px;
-  color: var(--light-brown);
+  color: #dda15e;
 }
 .footer .footerBox .footerBoxItem1 a {
   padding: 16px 32px;
@@ -79,10 +79,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--light-brown);
+  background-color: #dda15e;
   border-radius: 12px;
   text-decoration: none;
-  color: var(--dark-yellow);
+  color: #21221c;
   font-weight: 700;
   font-size: 18px;
 }
@@ -103,7 +103,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   align-items: center;
 }
 .footer .footerBox .footerBoxItem2 .itemBoxInfo h3 {
-  color: var(--light-brown);
+  color: #dda15e;
 }
 .footer .footerBox .footerBoxItem2 .itemBoxInfo .infoList {
   display: flex;
@@ -116,12 +116,12 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  color: var(--light-brown);
+  color: #dda15e;
 }
 .footer .footerBox .footerBoxItem2 .itemBoxInfo .infoList a {
   text-decoration: none;
   list-style: none;
-  color: var(--white-smoke);
+  color: #f5f5f5;
 }
 .footer .footerBox .footerBoxItem3 {
   display: flex;
@@ -129,7 +129,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   justify-content: center;
 }
 .footer .footerBox .footerBoxItem3 p {
-  color: var(--light-brown);
+  color: #dda15e;
 }
 
 #hero {
@@ -381,7 +381,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   color: var(--white-smoke);
 }
 .box-servicios .servicio-user:hover {
-  background-color: var(--dark-green);
+  filter: brightness(80%);
+  transition: ease-in-out 0.4s;
+  transform: scale(1.1);
+  color: var(--white-smoke);
 }
 
 #section-locales {
@@ -454,7 +457,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   padding: 8px 16px;
 }
 #section-locales .locales-info .locales-distritos:hover {
-  background-color: var(--dark-green);
+  filter: brightness(80%);
+  transition: ease-in-out 0.4s;
+  transform: scale(1.1);
+  color: var(--white-smoke);
 }
 
 #contacto {
@@ -552,6 +558,51 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 
 .buttonReserva:hover {
   background-color: var(--dark-brown);
+}
+
+.botonWhatsapp {
+  background-color: var(--dark-light-yellow);
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 25%;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.botonWhatsapp .bi-whatsapp {
+  color: var(--light-brown);
+  font-size: 50px;
+}
+.botonWhatsapp:hover {
+  background-color: var(--dark-yellow);
+  box-shadow: 0px 0px 10px rgb(59, 58, 58);
+  transition: 0.5s ease;
+}
+
+.botonArriba {
+  background-color: var(--dark-light-yellow);
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 25%;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+.botonArriba .bi-arrow-up {
+  color: var(--light-brown);
+  font-size: 30px;
+}
+.botonArriba .bi-arrow-up:hover {
+  transition: 0.2s ease;
+}
+.botonArriba:hover {
+  background-color: var(--dark-yellow);
+  box-shadow: 0px 0px 10px rgb(59, 58, 58);
+  transition: 0.5s ease;
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
@@ -742,6 +793,22 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
     font-size: 14px;
   }
 }
+.botonWhatsapp {
+  width: 80px;
+}
+.botonWhatsapp .bi-whatsapp {
+  color: var(--light-brown);
+  font-size: 40px;
+}
+
+.botonArriba {
+  width: 80px;
+}
+.botonArriba .bi-arrow-up {
+  color: var(--light-brown);
+  font-size: 40px;
+}
+
 @media (max-width: 767px) {
   /* NavBar */
   header .navbar .container-fluid .navbar-brand {
@@ -923,6 +990,20 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   .formulario-section input,
   .formulario-section select {
     font-size: 14px;
+  }
+  .botonWhatsapp {
+    width: 60px;
+  }
+  .botonWhatsapp .bi-whatsapp {
+    color: var(--light-brown);
+    font-size: 30px;
+  }
+  .botonArriba {
+    width: 60px;
+  }
+  .botonArriba .bi-arrow-up {
+    color: var(--light-brown);
+    font-size: 30px;
   }
 }
 
