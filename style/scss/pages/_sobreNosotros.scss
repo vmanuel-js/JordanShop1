@@ -1,0 +1,48 @@
+#sobre-nosotros {
+  background-color: var(--dark-light-yellow);
+  margin-top: 80px;
+
+  .cont-sobre-nosotros {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding: 60px;
+
+    .info-sobre {
+      display: flex;
+      gap: 32px;
+      flex-direction: column;
+
+      hr {
+        color: var(--white);
+      }
+
+      h2 {
+        font-size: 48px;
+        color: var(--white);
+      }
+
+      p {
+        font-size: 24px;
+        color: var(--white-smoke);
+      }
+
+      a {
+        background-color: var(--light-brown);
+        border-radius: 12px;
+        padding: 8px 16px;
+        color: var(--white-smoke);
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+        width: 300px;
+        text-align: center;
+
+        &:hover {
+          background-color: var(--dark-brown);
+        }
+      }
+    }
+  }
+}

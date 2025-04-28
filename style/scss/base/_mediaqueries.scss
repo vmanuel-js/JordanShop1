@@ -1,0 +1,507 @@
+// TABLET
+@media (min-width: 768px) and (max-width: 1280px) {
+  header {
+    .navbar {
+      .container-fluid {
+        .navbar-brand {
+          font-size: 32px;
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            gap: 15px;
+            .nav-item {
+              .nav-link {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #hero {
+    padding-top: 60px;
+
+    .heroTitulos {
+      gap: 20px;
+      max-width: 700px;
+      width: 100%;
+      padding: 0 16px;
+
+      h1 {
+        font-size: 48px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .buttonReserva {
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 8px 16px;
+      }
+    }
+  }
+
+  #testimoniales {
+    padding: 40px 45px;
+    gap: 20px;
+
+    .subtitulosImportantes {
+      font-size: 28px;
+    }
+
+    .testimonioContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .testimonio {
+        gap: 10px;
+        width: 200px;
+        height: 500px;
+
+        &:hover {
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }
+
+  #herramientasDeTrabajo {
+    padding: 0px 60px 40px;
+
+    .parrafoImportante {
+      font-size: 16px;
+    }
+
+    .herramientasDeConfianza {
+      grid-template-columns: repeat(3, 1fr);
+
+      .herramientas {
+        &:hover {
+          transform: translateY(-3px);
+        }
+
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  #sobre-nosotros {
+    margin-top: 70px;
+
+    .cont-sobre-nosotros {
+      gap: 35px;
+      padding: 40px;
+      align-items: center;
+      flex-direction: column;
+
+      .info-sobre {
+        gap: 28px;
+
+        h2 {
+          font-size: 36px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        a {
+          border-radius: 10px;
+          font-size: 16px;
+          width: 250px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footerBox {
+      padding: 60px 48px;
+      gap: 35px;
+
+      .footerBoxItem1 {
+        h2 {
+          font-size: 32px;
+        }
+        a {
+          padding: 12px 24px;
+          height: 48px;
+          border-radius: 10px;
+          font-size: 16px;
+        }
+      }
+      .footerBoxItem2 {
+        display: flex;
+        justify-content: space-around;
+
+        .itemBoxInfo {
+          min-width: 200px;
+          max-width: 300px;
+          gap: 5px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+      }
+    }
+  }
+
+  #servicios {
+    .titulo-servicios {
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 20px;
+      }
+      hr {
+        width: 70%;
+      }
+    }
+  }
+  .box-servicios {
+    gap: 40px;
+    padding: 45px;
+
+    .servicio-user {
+      width: 300px;
+
+      h2 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  #section-locales {
+    .locales {
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 20px;
+      }
+      hr {
+        width: 70%;
+      }
+    }
+    .locales-info {
+      gap: 40px;
+      padding: 45px;
+
+      .locales-distritos {
+        width: 300px;
+
+        h3 {
+          font-size: 22px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  #contacto {
+    .titulo-contact {
+      p {
+        font-size: 20px;
+      }
+      hr {
+        width: 75%;
+      }
+    }
+    .contact-info {
+      padding: 60px;
+      flex-direction: column;
+      .text-contact {
+        h2 {
+          font-size: 28px;
+        }
+        ul {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .formulario-section {
+    padding: 60px;
+
+    input,
+    select {
+      font-size: 14px;
+    }
+  }
+}
+
+// CELULAR
+@media (max-width: 767px) {
+  /* NavBar */
+  header {
+    .navbar {
+      .container-fluid {
+        .navbar-brand {
+          font-size: 22px;
+        }
+        .navbar-collapse {
+          .navbar-nav {
+            gap: 18px;
+            .nav-item {
+              .nav-link {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #hero {
+    padding-top: 40px;
+
+    .heroTitulos {
+      gap: 18px;
+      max-width: 300px;
+      width: 100%;
+      padding: 0 16px;
+
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .buttonReserva {
+        font-size: 18px;
+        border-radius: 10px;
+        padding: 8px 16px;
+      }
+    }
+  }
+
+  #testimoniales {
+    padding: 36px 40px;
+    gap: 18px;
+
+    .subtitulosImportantes {
+      font-size: 24px;
+    }
+
+    .testimonioContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+
+      .testimonio {
+        gap: 10px;
+        width: 200px;
+        height: 500px;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+      }
+    }
+  }
+
+  #herramientasDeTrabajo {
+    padding: 0px 30px 20px;
+
+    p {
+      font-size: 14px;
+    }
+
+    .herramientasDeConfianza {
+      grid-template-columns: repeat(1, 1fr);
+
+      .herramientas {
+        &:hover {
+          transform: translateY(-2px);
+        }
+
+        img {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footerBox {
+      padding: 30px 36px;
+      gap: 20px;
+
+      .footerBoxItem1 {
+        h2 {
+          font-size: 24px;
+        }
+        a {
+          padding: 10px 20px;
+          height: 44px;
+          font-size: 14px;
+        }
+      }
+
+      .footerBoxItem2 {
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        .itemBoxInfo {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+      }
+    }
+  }
+
+  #sobre-nosotros {
+    margin-top: 60px;
+
+    .cont-sobre-nosotros {
+      gap: 35px;
+      padding: 60px 40px;
+      align-items: center;
+      flex-direction: column;
+
+      .info-sobre {
+        gap: 28px;
+
+        h2 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        a {
+          border-radius: 10px;
+          font-size: 14px;
+          width: 250px;
+        }
+      }
+    }
+  }
+
+  #servicios {
+    .titulo-servicios {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+      hr {
+        width: 75%;
+      }
+    }
+  }
+  .box-servicios {
+    gap: 36px;
+    padding: 40px;
+
+    .servicio-user {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+
+  #section-locales {
+    .locales {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+      hr {
+        width: 75%;
+      }
+    }
+    .locales-info {
+      gap: 36px;
+      padding: 40px;
+
+      .locales-distritos {
+        h3 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+        }
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  #contacto {
+    .titulo-contact {
+      p {
+        font-size: 18px;
+      }
+      hr {
+        width: 75%;
+      }
+    }
+    .contact-info {
+      padding: 40px;
+      flex-direction: column;
+      iframe {
+        width: 250px;
+      }
+      .text-contact {
+        h2 {
+          font-size: 24px;
+        }
+        ul {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .formulario-section {
+    padding: 60px;
+
+    input,
+    select {
+      font-size: 14px;
+    }
+  }
+}

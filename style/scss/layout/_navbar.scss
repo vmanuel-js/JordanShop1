@@ -1,0 +1,33 @@
+header {
+  .navbar {
+    background-color: var(--dark-yellow);
+    .container-fluid {
+      .navbar-brand {
+        color: var(--light-brown);
+        font-size: 40px;
+        &:hover {
+          color: var(--dark-brown);
+        }
+      }
+      .navbar-toggler {
+        background-color: var(--light-brown);
+      }
+      .navbar-collapse {
+        .navbar-nav {
+          display: flex;
+          flex-wrap: row;
+          gap: 40px;
+          .nav-item {
+            .nav-link {
+              color: var(--white-smoke);
+              font-size: 18px;
+              &:hover {
+                color: var(--light-brown);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
