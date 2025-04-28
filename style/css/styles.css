@@ -381,7 +381,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   color: var(--white-smoke);
 }
 .box-servicios .servicio-user:hover {
-  background-color: var(--dark-green);
+  filter: brightness(80%);
+  transition: ease-in-out 0.4s;
+  transform: scale(1.1);
+  color: var(--white-smoke);
 }
 
 #section-locales {
@@ -454,7 +457,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   padding: 8px 16px;
 }
 #section-locales .locales-info .locales-distritos:hover {
-  background-color: var(--dark-green);
+  filter: brightness(80%);
+  transition: ease-in-out 0.4s;
+  transform: scale(1.1);
+  color: var(--white-smoke);
 }
 
 #contacto {
