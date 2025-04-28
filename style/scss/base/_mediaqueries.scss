@@ -255,6 +255,24 @@
   }
 }
 
+.botonWhatsapp {
+  width: 80px;
+
+  .bi-whatsapp {
+    color: var(--light-brown);
+    font-size: 40px;
+  }
+}
+
+.botonArriba {
+  width: 80px;
+
+  .bi-arrow-up {
+    color: var(--light-brown);
+    font-size: 40px;
+  }
+}
+
 // CELULAR
 @media (max-width: 767px) {
   /* NavBar */
@@ -502,6 +520,24 @@
     input,
     select {
       font-size: 14px;
+    }
+  }
+
+  .botonWhatsapp {
+    width: 60px;
+
+    .bi-whatsapp {
+      color: var(--light-brown);
+      font-size: 30px;
+    }
+  }
+
+  .botonArriba {
+    width: 60px;
+
+    .bi-arrow-up {
+      color: var(--light-brown);
+      font-size: 30px;
     }
   }
 }

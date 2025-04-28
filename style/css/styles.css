@@ -787,6 +787,22 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
     font-size: 14px;
   }
 }
+.botonWhatsapp {
+  width: 80px;
+}
+.botonWhatsapp .bi-whatsapp {
+  color: var(--light-brown);
+  font-size: 40px;
+}
+
+.botonArriba {
+  width: 80px;
+}
+.botonArriba .bi-arrow-up {
+  color: var(--light-brown);
+  font-size: 40px;
+}
+
 @media (max-width: 767px) {
   /* NavBar */
   header .navbar .container-fluid .navbar-brand {
@@ -968,6 +984,20 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   .formulario-section input,
   .formulario-section select {
     font-size: 14px;
+  }
+  .botonWhatsapp {
+    width: 60px;
+  }
+  .botonWhatsapp .bi-whatsapp {
+    color: var(--light-brown);
+    font-size: 30px;
+  }
+  .botonArriba {
+    width: 60px;
+  }
+  .botonArriba .bi-arrow-up {
+    color: var(--light-brown);
+    font-size: 30px;
   }
 }
 
