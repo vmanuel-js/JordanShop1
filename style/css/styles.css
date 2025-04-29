@@ -357,7 +357,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   object-fit: cover;
   border-radius: 8px;
 }
-.box-servicios .servicio-user h2 {
+.box-servicios .servicio-user h3 {
   font-size: 24px;
 }
 .box-servicios .servicio-user p {
