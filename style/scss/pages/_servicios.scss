@@ -1,5 +1,5 @@
 #servicios {
-  background-color: var(--dark-yellow);
+  background-color: $dark-yellow;
 
   .titulo-servicios {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -13,7 +13,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    color: white;
+    color: $white;
     padding: 20px;
     gap: 15px;
 
@@ -22,7 +22,8 @@
     }
 
     hr {
-      color: var(--white-smoke);
+      color: $white;
+      width: 25%;
     }
 
     p {
@@ -31,13 +32,8 @@
   }
 }
 
-.titulo-servicios .titulo-servicios hr {
-  color: var(--white-smoke);
-  width: 25%;
-}
-
 .box-servicios {
-  background-color: var(--dark-light-yellow);
+  background-color: $dark-light-yellow;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -46,7 +42,7 @@
   padding: 60px;
 
   .servicio-user {
-    background-color: var(--dark-yellow);
+    background-color: $dark-yellow;
     border-radius: 12px;
     padding: 15px;
     display: flex;
@@ -54,8 +50,8 @@
     gap: 12px;
     width: 400px;
     height: 100%;
-    color: var(--white-smoke);
-    border: 1px solid #ccc;
+    color: $white-smoke;
+    border: 1px solid $white-smoke;
     text-align: center;
 
     .img-box-servicio {
@@ -74,8 +70,8 @@
     }
 
     .button-box-servicio {
-      background-color: var(--cream);
-      color: var(--dark-light-yellow);
+      background-color: $cream;
+      color: $dark-light-yellow;
       text-decoration: none;
       border-radius: 8px;
       font-size: 18px;
@@ -83,8 +79,8 @@
       padding: 8px 16px;
 
       &:hover {
-        background-color: var(--dark-light-yellow);
-        color: var(--white-smoke);
+        background-color: $dark-light-yellow;
+        color: $white-smoke;
       }
     }
 
@@ -92,7 +88,7 @@
       filter: brightness(80%);
       transition: ease-in-out 0.4s;
       transform: scale(1.1);
-      color: var(--white-smoke);
+      color: $white-smoke;
     }
   }
 }

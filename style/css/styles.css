@@ -301,7 +301,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 }
 
 #servicios {
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
 }
 #servicios .titulo-servicios {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/Nuestros_Servicios.jpg");
@@ -314,7 +314,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: white;
+  color: #fff;
   padding: 20px;
   gap: 15px;
 }
@@ -322,19 +322,15 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   font-size: 52px;
 }
 #servicios .titulo-servicios hr {
-  color: var(--white-smoke);
+  color: #fff;
+  width: 25%;
 }
 #servicios .titulo-servicios p {
   font-size: 24px;
 }
 
-.titulo-servicios .titulo-servicios hr {
-  color: var(--white-smoke);
-  width: 25%;
-}
-
 .box-servicios {
-  background-color: var(--dark-light-yellow);
+  background-color: #3c3d36;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -343,7 +339,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   padding: 60px;
 }
 .box-servicios .servicio-user {
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
   border-radius: 12px;
   padding: 15px;
   display: flex;
@@ -351,8 +347,8 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   gap: 12px;
   width: 400px;
   height: 100%;
-  color: var(--white-smoke);
-  border: 1px solid #ccc;
+  color: #f5f5f5;
+  border: 1px solid #f5f5f5;
   text-align: center;
 }
 .box-servicios .servicio-user .img-box-servicio {
@@ -368,8 +364,8 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   font-size: 14px;
 }
 .box-servicios .servicio-user .button-box-servicio {
-  background-color: var(--cream);
-  color: var(--dark-light-yellow);
+  background-color: #fefae0;
+  color: #3c3d36;
   text-decoration: none;
   border-radius: 8px;
   font-size: 18px;
@@ -377,14 +373,14 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   padding: 8px 16px;
 }
 .box-servicios .servicio-user .button-box-servicio:hover {
-  background-color: var(--dark-light-yellow);
-  color: var(--white-smoke);
+  background-color: #3c3d36;
+  color: #f5f5f5;
 }
 .box-servicios .servicio-user:hover {
   filter: brightness(80%);
   transition: ease-in-out 0.4s;
   transform: scale(1.1);
-  color: var(--white-smoke);
+  color: #f5f5f5;
 }
 
 #section-locales {
