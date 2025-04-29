@@ -5,7 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  color: var(--white-smoke);
+  color: $white-smoke;
   padding-top: 80px;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 #testimoniales {
-  background-color: var(--dark-light-yellow);
+  background-color: $dark-light-yellow;
   padding: 80px 60px;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
   .subtitulosImportantes {
     font-size: 36px;
     text-align: center;
-    color: var(--white);
+    color: $white;
   }
 
   .testimonioContainer {
@@ -65,10 +65,10 @@
       gap: 10px;
       width: 400px;
       height: 400px;
-      background-color: var(--dark-yellow);
+      background-color: $dark-yellow;
       padding: 10px 20px;
       border-radius: 12px;
-      color: var(--white);
+      color: $white;
 
       img {
         width: 150px;
@@ -79,7 +79,7 @@
       }
 
       &:hover {
-        background-color: var(--dark-green);
+        background-color: $dark-green;
         transform: translateY(-5px);
       }
     }
@@ -87,7 +87,7 @@
 }
 
 #herramientasDeTrabajo {
-  background-color: var(--dark-light-yellow);
+  background-color: $dark-light-yellow;
   height: auto;
   padding: 0px 80px 80px;
   gap: 0px;
@@ -95,12 +95,12 @@
   .subtitulosImportantes {
     font-size: 36px;
     text-align: center;
-    color: var(--white);
+    color: $white;
   }
 
   .parrafoImportante {
     font-size: 18px;
-    color: var(--white);
+    color: $white;
     text-align: center;
   }
 
@@ -111,11 +111,11 @@
     padding: 32px 16px;
 
     .herramientas {
-      border: 1px solid var(--white-smoke);
-      color: var(--white-smoke);
+      border: 1px solid $white-smoke;
+      color: $white-smoke;
       padding: 10px 20px;
       border-radius: 12px;
-      background-color: var(--dark-yellow);
+      background-color: $dark-yellow;
       transition: transform 0.2s;
       display: flex;
       flex-direction: column;
@@ -124,7 +124,7 @@
       gap: 20px;
 
       &:hover {
-        background-color: var(--dark-green);
+        background-color: $dark-green;
         transform: translateY(-5px);
       }
 

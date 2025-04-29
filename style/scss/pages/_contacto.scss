@@ -1,5 +1,5 @@
 #contacto {
-  background-color: var(--dark-yellow);
+  background-color: $dark-yellow;
 
   .titulo-contact {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -13,7 +13,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    color: white;
+    color: $white;
     padding: 20px;
     gap: 15px;
 
@@ -26,7 +26,7 @@
     }
 
     hr {
-      color: var(--white-smoke);
+      color: $white-smoke;
       width: 25%;
     }
   }
@@ -41,11 +41,11 @@
       flex-direction: column;
       gap: 30px;
       justify-content: center;
-      color: var(--white-smoke);
+      color: $white-smoke;
 
       h2 {
         font-size: 32px;
-        color: var(--light-brown);
+        color: $light-brown;
       }
 
       ul {
@@ -61,7 +61,7 @@
 }
 
 .formulario-section {
-  background-color: var(--dark-yellow);
+  background-color: $dark-yellow;
   padding: 80px;
 
   form {
@@ -69,7 +69,7 @@
       font-weight: bold;
       display: block;
       padding-top: 12px;
-      color: var(--light-brown);
+      color: $light-brown;
       text-align: left;
     }
 
@@ -84,8 +84,8 @@
     }
 
     .button-form {
-      background-color: var(--dark-light-yellow);
-      color: var(--white-smoke);
+      background-color: $dark-light-yellow;
+      color: $white-smoke;
       border: none;
       padding: 10px;
       width: 100%;

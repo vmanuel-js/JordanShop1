@@ -138,7 +138,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  color: var(--white-smoke);
+  color: #f5f5f5;
   padding-top: 80px;
   display: flex;
   justify-content: center;
@@ -167,7 +167,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 }
 
 #testimoniales {
-  background-color: var(--dark-light-yellow);
+  background-color: #3c3d36;
   padding: 80px 60px;
   display: flex;
   flex-direction: column;
@@ -176,7 +176,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 #testimoniales .subtitulosImportantes {
   font-size: 36px;
   text-align: center;
-  color: var(--white);
+  color: #fff;
 }
 #testimoniales .testimonioContainer {
   display: flex;
@@ -193,10 +193,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   gap: 10px;
   width: 400px;
   height: 400px;
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
   padding: 10px 20px;
   border-radius: 12px;
-  color: var(--white);
+  color: #fff;
 }
 #testimoniales .testimonioContainer .testimonio img {
   width: 150px;
@@ -206,12 +206,12 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   margin-top: 10px;
 }
 #testimoniales .testimonioContainer .testimonio:hover {
-  background-color: var(--dark-green);
+  background-color: #0e1407;
   transform: translateY(-5px);
 }
 
 #herramientasDeTrabajo {
-  background-color: var(--dark-light-yellow);
+  background-color: #3c3d36;
   height: auto;
   padding: 0px 80px 80px;
   gap: 0px;
@@ -219,11 +219,11 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 #herramientasDeTrabajo .subtitulosImportantes {
   font-size: 36px;
   text-align: center;
-  color: var(--white);
+  color: #fff;
 }
 #herramientasDeTrabajo .parrafoImportante {
   font-size: 18px;
-  color: var(--white);
+  color: #fff;
   text-align: center;
 }
 #herramientasDeTrabajo .herramientasDeConfianza {
@@ -233,11 +233,11 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   padding: 32px 16px;
 }
 #herramientasDeTrabajo .herramientasDeConfianza .herramientas {
-  border: 1px solid var(--white-smoke);
-  color: var(--white-smoke);
+  border: 1px solid #f5f5f5;
+  color: #f5f5f5;
   padding: 10px 20px;
   border-radius: 12px;
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
   transition: transform 0.2s;
   display: flex;
   flex-direction: column;
@@ -246,7 +246,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   gap: 20px;
 }
 #herramientasDeTrabajo .herramientasDeConfianza .herramientas:hover {
-  background-color: var(--dark-green);
+  background-color: #0e1407;
   transform: translateY(-5px);
 }
 #herramientasDeTrabajo .herramientasDeConfianza .herramientas img {
@@ -259,7 +259,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 }
 
 #sobre-nosotros {
-  background-color: var(--dark-light-yellow);
+  background-color: #3c3d36;
   margin-top: 80px;
 }
 #sobre-nosotros .cont-sobre-nosotros {
@@ -275,21 +275,21 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   flex-direction: column;
 }
 #sobre-nosotros .cont-sobre-nosotros .info-sobre hr {
-  color: var(--white);
+  color: #fff;
 }
 #sobre-nosotros .cont-sobre-nosotros .info-sobre h2 {
   font-size: 48px;
-  color: var(--white);
+  color: #fff;
 }
 #sobre-nosotros .cont-sobre-nosotros .info-sobre p {
   font-size: 24px;
-  color: var(--white-smoke);
+  color: #f5f5f5;
 }
 #sobre-nosotros .cont-sobre-nosotros .info-sobre a {
-  background-color: var(--light-brown);
+  background-color: #dda15e;
   border-radius: 12px;
   padding: 8px 16px;
-  color: var(--white-smoke);
+  color: #f5f5f5;
   font-weight: 600;
   font-size: 18px;
   text-decoration: none;
@@ -297,7 +297,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   text-align: center;
 }
 #sobre-nosotros .cont-sobre-nosotros .info-sobre a:hover {
-  background-color: var(--dark-brown);
+  background-color: #bc6c25;
 }
 
 #servicios {
@@ -384,7 +384,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 }
 
 #section-locales {
-  background-color: var(--dark-light-yellow);
+  background-color: #3c3d36;
 }
 #section-locales .locales {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/locales_barberia.jpeg");
@@ -397,7 +397,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: white;
+  color: #fff;
   padding: 20px;
   gap: 15px;
 }
@@ -408,7 +408,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   font-size: 24px;
 }
 #section-locales .locales hr {
-  color: var(--white-smoke);
+  color: #f5f5f5;
   width: 25%;
 }
 #section-locales .locales-info {
@@ -420,7 +420,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   padding: 60px;
 }
 #section-locales .locales-info .locales-distritos {
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
   border-radius: 12px;
   padding: 15px;
   display: flex;
@@ -428,7 +428,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   gap: 12px;
   width: 400px;
   height: 100%;
-  color: var(--white-smoke);
+  color: #f5f5f5;
   text-align: center;
 }
 #section-locales .locales-info .locales-distritos h3 {
@@ -444,8 +444,8 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   border-radius: 8px;
 }
 #section-locales .locales-info .locales-distritos a {
-  background-color: var(--cream);
-  color: var(--dark-light-yellow);
+  background-color: #fefae0;
+  color: #3c3d36;
   text-decoration: none;
   border-radius: 8px;
   font-size: 18px;
@@ -456,11 +456,11 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   filter: brightness(80%);
   transition: ease-in-out 0.4s;
   transform: scale(1.1);
-  color: var(--white-smoke);
+  color: #f5f5f5;
 }
 
 #contacto {
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
 }
 #contacto .titulo-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../imgs/contacto_barberia.jpeg");
@@ -473,7 +473,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  color: white;
+  color: #fff;
   padding: 20px;
   gap: 15px;
 }
@@ -484,7 +484,7 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   font-size: 24px;
 }
 #contacto .titulo-contact hr {
-  color: var(--white-smoke);
+  color: #f5f5f5;
   width: 25%;
 }
 #contacto .contact-info {
@@ -497,11 +497,11 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   flex-direction: column;
   gap: 30px;
   justify-content: center;
-  color: var(--white-smoke);
+  color: #f5f5f5;
 }
 #contacto .contact-info .text-contact h2 {
   font-size: 32px;
-  color: var(--light-brown);
+  color: #dda15e;
 }
 #contacto .contact-info .text-contact ul {
   list-style: none;
@@ -512,14 +512,14 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
 }
 
 .formulario-section {
-  background-color: var(--dark-yellow);
+  background-color: #21221c;
   padding: 80px;
 }
 .formulario-section form label {
   font-weight: bold;
   display: block;
   padding-top: 12px;
-  color: var(--light-brown);
+  color: #dda15e;
   text-align: left;
 }
 .formulario-section form input,
@@ -532,8 +532,8 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   font-size: 16px;
 }
 .formulario-section form .button-form {
-  background-color: var(--dark-light-yellow);
-  color: var(--white-smoke);
+  background-color: #3c3d36;
+  color: #f5f5f5;
   border: none;
   padding: 10px;
   width: 100%;

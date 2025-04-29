@@ -1,5 +1,5 @@
 #sobre-nosotros {
-  background-color: var(--dark-light-yellow);
+  background-color: $dark-light-yellow;
   margin-top: 80px;
 
   .cont-sobre-nosotros {
@@ -15,24 +15,24 @@
       flex-direction: column;
 
       hr {
-        color: var(--white);
+        color: $white;
       }
 
       h2 {
         font-size: 48px;
-        color: var(--white);
+        color: $white;
       }
 
       p {
         font-size: 24px;
-        color: var(--white-smoke);
+        color: $white-smoke;
       }
 
       a {
-        background-color: var(--light-brown);
+        background-color: $light-brown;
         border-radius: 12px;
         padding: 8px 16px;
-        color: var(--white-smoke);
+        color: $white-smoke;
         font-weight: 600;
         font-size: 18px;
         text-decoration: none;
@@ -40,7 +40,7 @@
         text-align: center;
 
         &:hover {
-          background-color: var(--dark-brown);
+          background-color: $dark-brown;
         }
       }
     }
