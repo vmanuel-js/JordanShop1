@@ -515,6 +515,10 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   background-color: #21221c;
   padding: 80px;
 }
+.formulario-section form {
+  width: 1000px;
+  margin: auto;
+}
 .formulario-section form label {
   font-weight: bold;
   display: block;
@@ -784,8 +788,12 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   .formulario-section {
     padding: 60px;
   }
-  .formulario-section input,
-  .formulario-section select {
+  .formulario-section form {
+    width: 500px;
+    margin: auto;
+  }
+  .formulario-section form input,
+  .formulario-section form select {
     font-size: 14px;
   }
 }
@@ -983,21 +991,25 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link
   .formulario-section {
     padding: 60px;
   }
-  .formulario-section input,
-  .formulario-section select {
+  .formulario-section form {
+    width: 200px;
+    margin: auto;
+  }
+  .formulario-section form input,
+  .formulario-section form select {
     font-size: 14px;
   }
-  .botonWhatsapp {
+  .formulario-section .botonWhatsapp {
     width: 60px;
   }
-  .botonWhatsapp .bi-whatsapp {
+  .formulario-section .botonWhatsapp .bi-whatsapp {
     color: var(--light-brown);
     font-size: 30px;
   }
-  .botonArriba {
+  .formulario-section .botonArriba {
     width: 60px;
   }
-  .botonArriba .bi-arrow-up {
+  .formulario-section .botonArriba .bi-arrow-up {
     color: var(--light-brown);
     font-size: 30px;
   }

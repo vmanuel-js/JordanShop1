@@ -247,10 +247,13 @@
 
   .formulario-section {
     padding: 60px;
-
-    input,
-    select {
-      font-size: 14px;
+    form {
+      width: 500px;
+      margin: auto;
+      input,
+      select {
+        font-size: 14px;
+      }
     }
   }
 }
@@ -517,27 +520,31 @@
   .formulario-section {
     padding: 60px;
 
-    input,
-    select {
-      font-size: 14px;
+    form {
+      width: 200px;
+      margin: auto;
+      input,
+      select {
+        font-size: 14px;
+      }
     }
-  }
 
-  .botonWhatsapp {
-    width: 60px;
+    .botonWhatsapp {
+      width: 60px;
 
-    .bi-whatsapp {
-      color: var(--light-brown);
-      font-size: 30px;
+      .bi-whatsapp {
+        color: var(--light-brown);
+        font-size: 30px;
+      }
     }
-  }
 
-  .botonArriba {
-    width: 60px;
+    .botonArriba {
+      width: 60px;
 
-    .bi-arrow-up {
-      color: var(--light-brown);
-      font-size: 30px;
+      .bi-arrow-up {
+        color: var(--light-brown);
+        font-size: 30px;
+      }
     }
   }
 }
